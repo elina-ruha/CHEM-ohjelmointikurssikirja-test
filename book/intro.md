@@ -1,6 +1,6 @@
 (intro)=
-# Welcome to the Template Book
+# Tervetuloa Kemiantekniikan ohjelmointikurssin oppimateriaalin harjoitusversioon!
 
-_This is the first page the student will see when opening the url._
+_Oppimateriaalin tekijät: Antti Karttunen (2016-2025), Tarmo Nieminen (2018), Julia Alajoki (2020), Riku Holopainen (2021), Jonna Järvelin (2024-2025). TeachBooks-harjoitusversio: Elina Ruha (2026)_
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+Tällä kurssilla on kuusi harjoituskierrosta, joihin liittyvä oppimateriaali on täällä. Löydät eri kierrokset vasemmalta painamalla kolmea viivaa.
