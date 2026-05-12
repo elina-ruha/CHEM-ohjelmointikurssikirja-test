@@ -20,7 +20,7 @@ Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, se näyttää t
 TAI:
 - Oppimateriaalin sisällä valitse oikean yläkulman raketti-symbolista Live Code ja XXXXX
 
-````{admonition} Vinkki
+````{hint} Vinkki
 class: tip
 Esimerkkiohjelmien **kokeileminen ja muokkaaminen on erittäin suositeltavaa**, koska se helpottaa merkittävästi esimerkkien ymmärtämistä.
 ````
@@ -85,3 +85,22 @@ Mitä ohjelmointikieltä tällä kurssilla opetellaan?
 ---
 
 ::::
+
+::::{question}
+:type: multiple-choice
+:variant: single-select
+:showanswer:
+:nocaption:
+:columns: 1
+
+Minkä perusteella kurssin arvosana määräytyy?
+---
+[ ] Läsnäolon
+[ ] Kysymysten esittämisen
+[x] MyCourses-tehtävien pisteiden
+> Oikein!
+---
+
+::::
+
+:::::
