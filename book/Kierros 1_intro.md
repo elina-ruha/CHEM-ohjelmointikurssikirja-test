@@ -24,17 +24,14 @@ Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-<p> Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi 
-  kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symboli
-  ja painamalla `Live Code` . Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run` .
-  Koodia voi myös editoida suoraan koodilaatikkossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. </p>
+Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symbolija painamalla `Live Code` . Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run` .Koodia voi myös editoida suoraan koodilaatikkossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta.
   
 ```{code-cell} ipython3
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
 
-## 3. Oppimateriaalien esimerkkiohjelmien kokeileminen itse
+## 3. Oppimateriaalin esimerkkiohjelmien kokeileminen itse
 - Kopioi esimerkkiohjelman koodi Spyder-editoriin.
 - Aja koodi painamalla Spyderissä vihreää "Run"-painiketta tai F5-nappia.
 
@@ -132,12 +129,12 @@ Minkä perusteella kurssin arvosana määräytyy?
 :nocaption:
 :columns: 1
 
-Täydennä koodi niin, että ohjelma tulostaa: 
-*Yksi*
-*Kaksi*
-*Kolme*
-print("Yksi")
-_____("Kaksi")
+Täydennä koodi niin, että ohjelma tulostaa:\
+*Yksi*\
+*Kaksi*\
+*Kolme*\
+print("Yksi")\
+_____("Kaksi")\
 pint("Kolme")
 ---
 [ ] input
