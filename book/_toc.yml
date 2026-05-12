@@ -12,8 +12,8 @@ parts:
     - file: Kierros 1_intro.md
       sections:
       - file: some_content/text_and_code.ipynb
-      - file: file_to_be_added_to_toc.md
-  - caption: Exercises
+      - file: 1.1.md
+  - caption: Lisämateriaali
     chapters:
     - file: exercises.md
       sections:
