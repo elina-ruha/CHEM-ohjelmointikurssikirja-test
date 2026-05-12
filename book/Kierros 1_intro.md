@@ -1,3 +1,16 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.17.3
+kernelspec:
+  display_name: base
+  language: python
+  name: python3
+---
+
 # Kierros 1
 Kurssin ensimmäisellä kierroksella tutustutaan ohjelmoinnin peruskäsitteisiin ja Python-ohjelmointikielen perusteisiin.
 ## 1. Spyder-ohjelmointiympäristön asentaminen
@@ -7,21 +20,25 @@ joka sisältää myös Python-kehitysympäristön. Oppimateriaalin Lisämateriaa
 
 ## 2. Oppimateriaalin lukuohje
 Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
+```ipython3
+print("Nyt lasketaan!")
+print("11*11 on", 11*11)
+```
+<p> Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi 
+  kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symboli
+  ja painamalla `Live Code`. Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run`.
+  
 ```{code-cell} ipython3
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, se näyttää tältä:
-(run version kokeilu? vai pelkkä erivärinen teksti?)
+
 ## 3. Oppimateriaalien esimerkkiohjelmien kokeileminen itse
 - Kopioi esimerkkiohjelman koodi Spyder-editoriin.
 - Aja koodi painamalla Spyderissä vihreää "Run"-painiketta tai F5-nappia.
 
-TAI:
-- Oppimateriaalin sisällä valitse oikean yläkulman raketti-symbolista Live Code ja XXXXX
-
-````{hint} Vinkki
-class: tip
+````{admonition} Vinkki
+:class: tip
 Esimerkkiohjelmien **kokeileminen ja muokkaaminen on erittäin suositeltavaa**, koska se helpottaa merkittävästi esimerkkien ymmärtämistä.
 ````
 
