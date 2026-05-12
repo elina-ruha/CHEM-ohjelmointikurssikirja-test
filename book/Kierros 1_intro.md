@@ -26,7 +26,8 @@ print("11*11 on", 11*11)
 ```
 <p> Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi 
   kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symboli
-  ja painamalla `Live Code`. Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run`.
+  ja painamalla `Live Code` . Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run` .
+  Koodia voi myös editoida suoraan koodilaatikkossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. </p>
   
 ```{code-cell} ipython3
 print("Nyt lasketaan!")
@@ -48,7 +49,7 @@ Ohjelmien huolellinen kommentointi on ensiarvoisen tärkeää, jotta:
 - Muistat itse, mitä kirjoittamasi koodi tekee!
 
 Ohjelmakoodiin voi lisätä kommentteja #-merkin jälkeen:
-```ipython3
+```{code-cell} ipython3
 #Aloitetaan!
 print("Eka ohjelmani")
 #Jatketaan!
@@ -57,7 +58,7 @@ print("Moi!") #Rivin loppuun voi myös lisätä kommentteja
 Kokeile tulostaa ylläoleva koodi. Huomaa, että kommentit eivät tulostuneet.
 
 Monirivisiä kommentteja voi kirjoittaa """"*kommentti*"""" -merkinnällä:
-```
+```{code-cell} ipython3
 print("Eka ohjelmani")
 """
 Olipa hieno kokemus!
@@ -116,6 +117,33 @@ Minkä perusteella kurssin arvosana määräytyy?
 [ ] Kysymysten esittämisen
 [x] MyCourses-tehtävien pisteiden
 > Oikein!
+---
+
+::::
+
+:::::
+
+:::::{card} Tehtävä 1.0.2
+
+::::{question}
+:type: multiple-choice
+:variant: single-select
+:showanswer:
+:nocaption:
+:columns: 1
+
+Täydennä koodi niin, että ohjelma tulostaa: 
+*Yksi*
+*Kaksi*
+*Kolme*
+print("Yksi")
+_____("Kaksi")
+pint("Kolme")
+---
+[ ] input
+[x] print
+> Oikein!
+[ ] float
 ---
 
 ::::
