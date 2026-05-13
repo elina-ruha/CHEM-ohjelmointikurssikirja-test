@@ -24,12 +24,20 @@ Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symbolija painamalla `Live Code` . Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run` . Koodia voi myös editoida suoraan koodilaatikkossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta.
+Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symbolija painamalla `Live Code` . Tällöin koodin voi "ajaa" painamalla koodilaatikon alareunasta `run` . Koodia voi myös editoida suoraan koodilaatikkossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. Tekemäsi muutokset eivät tallennu kirjaan.
   
 ```{code-cell} ipython3
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
+Välillä koodin tulostus voidaan näyttää harmaareunaisessa laatikossa itse koodin alapuolella. Esimerkiksi:
+```ipython3
+print("Nyt lasketaan!")
+print("11*11 on", 11*11)
+```
+Tulostus:
+>Nyt lasketaan!\
+>11*11 on 121!
 
 ## 3. Oppimateriaalin esimerkkiohjelmien kokeileminen itse
 - Kopioi esimerkkiohjelman koodi Spyder-editoriin.
