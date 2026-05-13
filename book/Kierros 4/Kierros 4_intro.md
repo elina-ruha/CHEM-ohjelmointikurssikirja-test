@@ -5,6 +5,7 @@ voimme helposti ja tehokkaasti kuvata vektoreita, matriiseja ja mitä tahansa N-
 Tutustumme myös tietotyyppeihin, joilla on helppo käsitellä polynomeja.
 
 Lisäksi otamme käyttöön **matplotlib**-kirjaston, jolla pystymme visualisoimaan ja analysoimaan dataa. Upeita kuvaajia luvassa!
+
 :::::{card} Tehtävä 4.0.1
 Tästä alkaa keirros 4. Sitä ennen kierroksen 3 pikakertaus.
 ::::{question}
