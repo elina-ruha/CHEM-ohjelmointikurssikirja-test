@@ -11,13 +11,16 @@ parts:
     chapters:
     - file: Kierros 1/Kierros 1_intro.md
       sections:
-      - file: some_content/text_and_code.ipynb
       - file: Kierros 1/1_1.md
+    - file: Kierros 4/Kierros 4_intro.md
+      sections:
+      - file: Kierros 4/4_7.md
   - caption: Lisämateriaali
     chapters:
     - file: exercises.md
       sections:
       - file: exercises/001.md
+      - file: some_content/text_and_code.ipynb
       - file: exercises/summary
     - file: extensions.md
       sections:
