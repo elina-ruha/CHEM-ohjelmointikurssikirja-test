@@ -19,7 +19,7 @@ Tutustumme myös tietotyyppeihin, joilla on helppo käsitellä polynomeja.
 Lisäksi otamme käyttöön **matplotlib**-kirjaston, jolla pystymme visualisoimaan ja analysoimaan dataa. Upeita kuvaajia luvassa!
 
 :::::{card} Tehtävä 4.0.1
-Tästä alkaa keirros 4. Sitä ennen kierroksen 3 pikakertaus.
+Tästä alkaa kierros 4. Sitä ennen kierroksen 3 pikakertaus.
 ::::{question}
 :type: multiple-choice
 :variant: single-select
