@@ -9,12 +9,12 @@ parts:
     style: numerical                # Default value (line can be removed), style of numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
     restart_numbering: false        # Default value (line can be removed), whether to restart numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
     chapters:
-    - file: Kierros 1/Kierros 1_intro.md
+    - file: Kierros1/Kierros_1_intro.md
       sections:
-      - file: Kierros 1/1_1.md
-    - file: Kierros 4/Kierros 4_intro.md
+      - file: Kierros1/s1_1.md
+    - file: Kierros4/Kierros_4_intro.md
       sections:
-      - file: Kierros 4/4_7.md
+      - file: Kierros4/s4_7.md
   - caption: Lisämateriaali
     chapters:
     - file: exercises.md
