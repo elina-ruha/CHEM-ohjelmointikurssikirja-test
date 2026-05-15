@@ -39,7 +39,9 @@ sphinx:                                              # Options passed on to the 
       announcement: ""                               # Default value (line can be removed), sets a banner announcement at the top of the site, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html)
     html_show_copyright:   false                     # As the copyright is included in the author field, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_last_updated_fmt: ''                        # Adds the date of the last update to the footer, if '' based on value of language, configuration part of sphinx-last-updated-by-git (https://github.com/TeachBooks/sphinx-last-updated-by-git)
-    html_static_path: ["figures", "_static"]                    # Add folder that contain files that need to be included, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+    html_static_path: ["figures", "_static"]         # Add folder that contain files that need to be included, such as the location of the logo(s), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
+    html_css_files:
+    - attribution.css
     mathjax3_config:
       chtml: {
         mtextInheritFont: true                       # To typeset text within math prettier, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
