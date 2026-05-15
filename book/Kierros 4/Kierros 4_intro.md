@@ -57,7 +57,7 @@ Luvut = [5, 4, 3, 2, 1]. Mikä on luvun 5 indeksi listassa?
 ---
 [ ] 1
 > Yritä uudelleen!
-x] 0
+[x] 0
 > Oikein!
 [ ] -1
 > Yritä uudelleen
