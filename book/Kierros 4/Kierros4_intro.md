@@ -1,3 +1,15 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Kierros 4
 Neljännellä kierroksella otamme käyttöön **numpy**-kirjaston, joka sisältää luonnontieteissä
 ja tekniikassa erityisen hyödyllisen tietorakenteen, eli taulukon (**array**). Taulukoiden avulla
