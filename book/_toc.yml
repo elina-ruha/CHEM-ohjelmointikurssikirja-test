@@ -22,8 +22,6 @@ parts:
       - file: Kierros5/s5_1.md
       - file: Kierros5/s5_2.md
   - caption: Lisämateriaali
-    chapters:
-    - file: exercises.md
       sections:
       - file: some_content/text_and_code.ipynb
       - file: exercises/summary
