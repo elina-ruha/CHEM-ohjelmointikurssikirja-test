@@ -17,6 +17,8 @@ parts:
       - file: Kierros4/s4_7.md
       - file: Kierros4/s4_8.md
       - file: Kierros4/s4_9.md
+    - file: Kierros5/Kierros_5_intro.md
+      - file: Kierros5/s5_1.md
   - caption: Lisämateriaali
     chapters:
     - file: exercises.md
