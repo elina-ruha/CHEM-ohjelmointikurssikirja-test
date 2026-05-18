@@ -22,9 +22,9 @@ parts:
       - file: Kierros5/s5_1.md
       - file: Kierros5/s5_2.md
   - caption: Lisämateriaali
-      sections:
-      - file: some_content/text_and_code.ipynb
-      - file: exercises/summary
+    chapters:
+    - file: some_content/text_and_code.ipynb
+    - file: exercises/summary
   - caption: Muuta
     chapters:
     - file: references.md
