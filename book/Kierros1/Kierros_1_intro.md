@@ -24,7 +24,7 @@ Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symbolija painamalla `Live Code` . Live Code tarvitsee ottaa käyttöön vain kerran per sivu. Välillä Live Code on myös automaattisesti otettu käyttöön oppimateriaalissa, jolloin sitä ei tarvitse itse laittaa päälle.
+Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta raketti-symbolin ja painamalla `Live Code` . Live Code tarvitsee ottaa käyttöön vain kerran per sivu. Useimmiten Live Code on automaattisesti otettu käyttöön oppimateriaalissa, jolloin sitä ei tarvitse itse laittaa päälle.
 
 Huomaat, että Live Code on päällä kun koodilaatikoiden alareunaan ilmestyy painikkeet `run`, `run all`, `add cell` ja `clear`. Tällöin koodin voi "ajaa" painamalla `run` . Koodia voi myös editoida suoraan koodilaatikossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. Tekemäsi muutokset eivät tallennu kirjaan. 
 
@@ -53,8 +53,8 @@ Esimerkkiohjelmien **kokeileminen ja muokkaaminen on erittäin suositeltavaa**, 
 
 ## 4. Ohjelmakoodin kommentointi
 Ohjelmien huolellinen kommentointi on ensiarvoisen tärkeää, jotta:
-- Muut ymmärtävät, mitä kirjoittamasi koodi tekee
-- Muistat itse, mitä kirjoittamasi koodi tekee!
+- muut ymmärtävät, mitä kirjoittamasi koodi tekee
+- muistat itse, mitä kirjoittamasi koodi tekee!
 
 Ohjelmakoodiin voi lisätä kommentteja #-merkin jälkeen:
 ```{code-cell} ipython3
@@ -76,13 +76,13 @@ Sitten jatketaan!
 print("Moi!")
 ```
 ## 5. Muita Python-oppimateriaaleja
-<p> Lisämateriaalin Python-verkkomateriaaleja -kappaleessa (linkki) on listattu 
+<p> Lisämateriaalin Python-verkkomateriaaleja -kappaleessa on listattu 
   hyviä verkosta löytyviä oppimateriaaleja, joita voi myös hyödyntää Python-ohjelmoinnin opettelussa.
   Jos pidät opiskelusta videomateriaalien avulla, sivulta löytyy linkkejä videomuotoisiin oppimateriaaleihin. </p>
 
 ## 6. Jos olet aiemmin osallistunut kurssille *Ohjelmoinnin peruskurssi Y1*
 <p> Jos olet aiemmin osallistunut Aallon yleiselle Python-kurssille, 
-  tutustuthan lisämateriaalin kappaleeseen main-funktio (hyperlink) ennen kuin 
+  tutustuthan lisämateriaalin kappaleeseen main-funktio ennen kuin 
   aloitat tämän kurssin tehtävien tekemisen. </p>
 
 ## 7. Oppimateriaalin sisältämät tehtävät
