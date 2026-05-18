@@ -20,11 +20,11 @@ parts:
     - file: Kierros5/Kierros_5_intro.md
       sections:
       - file: Kierros5/s5_1.md
+      - file: Kierros5/s5_2.md
   - caption: Lisämateriaali
     chapters:
     - file: exercises.md
       sections:
-      - file: exercises/001.md
       - file: some_content/text_and_code.ipynb
       - file: exercises/summary
   - caption: Muuta
