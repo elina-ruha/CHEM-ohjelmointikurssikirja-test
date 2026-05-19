@@ -93,7 +93,6 @@ Oppaassa olevien tehtävien tarkoitus on tukea oppimista, ne eivät vaikuta kurs
 Alla on kaksi esimerkkiä oppimateriaalin tehtävätyypeistä.
 
 :::::{card} Tehtävä 1.0.1
-
 ::::{question}
 :type: multiple-choice
 :variant: single-select
@@ -109,7 +108,6 @@ Mitä ohjelmointikieltä tällä kurssilla opetellaan?
 [ ] INTERCAL
 [ ] Cobra
 ---
-
 ::::
 
 ::::{question}
@@ -126,34 +124,15 @@ Minkä perusteella kurssin arvosana määräytyy?
 [x] MyCourses-tehtävien pisteiden
 > Oikein!
 ---
-
 ::::
-
 :::::
-
-:::::{card} Tehtävä 1.0.2
-
-::::{question}
-:type: multiple-choice
-:variant: single-select
-:showanswer:
-:nocaption:
-:columns: 1
-
+**Tehtävä 1.0.2**\
 Täydennä koodi niin, että ohjelma tulostaa:\
 *Yksi*\
 *Kaksi*\
 *Kolme*\
-print("Yksi")\
-_____("Kaksi")\
+```{code-cell} ipython3
+print("Yksi")
+"""Täydennä"""("Kaksi")
 pint("Kolme")
----
-[ ] input
-[x] print
-> Oikein!
-[ ] float
----
-
-::::
-
-:::::
+```
