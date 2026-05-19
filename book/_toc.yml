@@ -29,7 +29,6 @@ parts:
       - file: Kierros6_scipy/s6_1.md
       - file: Kierros6_scipy/s6_2.md
   - caption: Lisämateriaali
-    chapters:
   - caption: Muuta
     chapters:
     - file: references.md
