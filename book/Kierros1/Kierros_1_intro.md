@@ -126,7 +126,7 @@ Minkä perusteella kurssin arvosana määräytyy?
 ---
 ::::
 :::::
-**Tehtävä 1.0.2**\
+### Tehtävä 1.0.2
 Täydennä koodi niin, että ohjelma tulostaa:
 > Yksi\
 > Kaksi\
