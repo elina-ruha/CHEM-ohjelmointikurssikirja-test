@@ -127,10 +127,10 @@ Minkä perusteella kurssin arvosana määräytyy?
 ::::
 :::::
 **Tehtävä 1.0.2**\
-Täydennä koodi niin, että ohjelma tulostaa:\
-*Yksi*\
-*Kaksi*\
-*Kolme*\
+Täydennä koodi niin, että ohjelma tulostaa:
+> Yksi\
+> Kaksi\
+> Kolme
 ```{code-cell} ipython3
 print("Yksi")
 """Täydennä"""("Kaksi")
