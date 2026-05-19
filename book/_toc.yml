@@ -27,10 +27,9 @@ parts:
     - file: Kierros6_scipy/Kierros_6_intro.md
       sections:
       - file: Kierros6_scipy/s6_1.md
+      - file: Kierros6_scipy/s6_2.md
   - caption: Lisämateriaali
     chapters:
-    - file: some_content/text_and_code.ipynb
-    - file: exercises/summary
   - caption: Muuta
     chapters:
     - file: references.md
