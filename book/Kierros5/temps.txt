@@ -1,0 +1,10 @@
+Sc, skandium   , 1541.0 ,2830 
+Ti  , titaani  , 1668.0,3287 
+V, vanadiini , 1910.0  ,3407 
+Cr, kromi  , 1907.0  ,2671 
+Mn , mangaani  , 1246.0,2061 
+Fe, rauta, 1538.0  ,2861 
+Co , koboltti , 1495.0,   2927
+Ni, nikkeli, 1455.0   , 2913 
+Cu  , kupari  , 1084.62 , 2927 
+Zn, sinkki, 419.53 , 907 
