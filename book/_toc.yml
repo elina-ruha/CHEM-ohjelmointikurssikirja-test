@@ -23,6 +23,7 @@ parts:
       - file: Kierros5/s5_2.md
       - file: Kierros5/s5_3.md
       - file: Kierros5/s5_4.md
+      - file: Kierros5/s5_5.md
   - caption: Lisämateriaali
     chapters:
     - file: some_content/text_and_code.ipynb
