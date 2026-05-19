@@ -24,6 +24,9 @@ parts:
       - file: Kierros5/s5_3.md
       - file: Kierros5/s5_4.md
       - file: Kierros5/s5_5.md
+    - file: Kierros6_scipy/Kierros_6_intro.md
+      sections:
+      - file: Kierros6_scipy/s6_1.md
   - caption: Lisämateriaali
     chapters:
     - file: some_content/text_and_code.ipynb
