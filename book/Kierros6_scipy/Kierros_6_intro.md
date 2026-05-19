@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Kierros 6
+# Kierros 6: SciPy
 Kuudes ja viimeinen kierros sisältää uutena asiana **Scipy**-kirjaston, jossa on valtava määrä työkaluja
 tieteellistä laskentaa varten.
 
