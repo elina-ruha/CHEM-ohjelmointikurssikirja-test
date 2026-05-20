@@ -30,6 +30,7 @@ parts:
       - file: Kierros6_scipy/s6_2.md
       - file: Kierros6_scipy/s6_3.md
       - file: Kierros6_scipy/s6_4.md
+      - file: Kierros6_scipy/s6_5.md
   - caption: Lisämateriaali
     chapters:
     - file: Lisamateriaali/Spyder_asennus.md
