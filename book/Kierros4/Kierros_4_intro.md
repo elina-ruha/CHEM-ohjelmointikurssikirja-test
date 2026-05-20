@@ -19,13 +19,13 @@ Tutustumme myös tietotyyppeihin, joilla on helppo käsitellä polynomeja.
 Lisäksi otamme käyttöön **matplotlib**-kirjaston, jolla pystymme visualisoimaan ja analysoimaan dataa. Upeita kuvaajia luvassa!
 :::{figure} ../figures/K4_introkuva1.png
 :height: 350px
-:width: 350px
+:width: 50%
 :align: left
 :::
 
 :::{figure} ../figures/K4_introkuva2.png
 :height: 350px
-:width: 350px
+:width: 50%
 :align: right
 :::
 
