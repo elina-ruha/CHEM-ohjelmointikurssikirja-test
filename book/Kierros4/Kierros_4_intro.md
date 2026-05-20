@@ -24,7 +24,7 @@ Lisäksi otamme käyttöön **matplotlib**-kirjaston, jolla pystymme visualisoim
 
 :::{figure} ../figures/K4_introkuva2.png
 :width: 100%
-:align: right
+:align: left
 :::
 
 :::::{card} Tehtävä 4.0.1
