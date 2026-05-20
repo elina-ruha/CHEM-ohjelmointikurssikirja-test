@@ -89,7 +89,7 @@ Luvut = [5, 4, 3, 2, 1]. Mikä on luvun 5 indeksi listassa?
 [x] 0
 > Oikein!
 [ ] -1
-> Yritä uudelleen
+> Yritä uudelleen!
 ---
 ::::
 
@@ -173,7 +173,7 @@ For avain, arvo in sanakirja.FUNKTIO(). Mikä on FUNKTIO()?
 Atomipainot{'P'} = 30.97 lisää sanakirjaan parin 'P':30.97. Totta vai tarua?
 ---
 [ ] Totta
-> Tulee olla []
+> Tulee olla [].
 [x] Tarua
 > Oikein, tulee käyttää [].
 ---
