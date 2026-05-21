@@ -16,6 +16,7 @@ parts:
       sections:
       - file: Kierros4/s4_1.md
       - file: Kierros4/s4_2.md
+      - file: Kierros4/s4_3.md
       - file: Kierros4/s4_7.md
       - file: Kierros4/s4_8.md
       - file: Kierros4/s4_9.md
