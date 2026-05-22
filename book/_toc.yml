@@ -41,6 +41,8 @@ parts:
       sections:
       - file: Kierros6_olio/s6_6.md
       - file: Kierros6_olio/s6_7.md
+      - file: Kierros6_olio/s6_8.md
+      - file: Kierros6_olio/s6_9.md
   - caption: Lisämateriaali
     chapters:
     - file: Lisamateriaali/Lisamateriaalia_intro.md
