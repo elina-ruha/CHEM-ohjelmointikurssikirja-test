@@ -51,7 +51,7 @@ uuden olion, jonka kentät *kaava* ja *moolimassa* on täytetty arvoilla "CH4" j
 Luokkamäärittelyn pohjalta voi luoda mielivaltaisen määrän uusia olioita. Katsotaan kokonaisen esimerkin avulla, miten
 olioiden kenttiä voi lukea ja miten niiden metodeja käytetään:
 ```{code-cell} ipython3
-["auto-execute-page"]
+:tags: ["auto-execute-page"]
 class Molekyyli:
     def __init__(self, kaava, moolimassa):
         self.kaava = kaava
