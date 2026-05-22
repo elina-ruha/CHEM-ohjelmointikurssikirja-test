@@ -38,6 +38,8 @@ parts:
       - file: Kierros6_scipy/s6_4.md
       - file: Kierros6_scipy/s6_5.md
     -file: Kierros6_olio/Kierros_6_olio_intro.md
+      sections:
+      - file: Kierros6_olio/s6_6.md
   - caption: Lisämateriaali
     chapters:
     - file: Lisamateriaali/Lisamateriaalia_intro.md
