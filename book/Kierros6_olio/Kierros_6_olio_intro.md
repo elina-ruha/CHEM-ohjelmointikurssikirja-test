@@ -30,13 +30,13 @@ class Molekyyli:
 ```
 *Molekyyli*-luokka sisältää kaksi funktiomäärittelyä. Näitä luokan sisältämiä funktioita kutsutaan **metodeiksi** 
 (engl. *method*) erotuksena tavallisista funktioista, jotka eivät kuulu mihinkään luokkaan. *Molekyyli*-luokka sisältää
-**käynnistysmetodin** *__init__* ja metodin *laske_ainemaara*. 
+**käynnistysmetodin** *_init_* ja metodin *laske_ainemaara*. 
 :::{admonition} Huom!
 :class: tip
 Molempien metodien ensimmäinen parametri on *self*. Tämä parametri viittaa aina olioon itseensä. Python hoitaa
 *self*-parametrin automaattisesti, eli sitä ei anneta, kun metodia kutsutaan.
 :::
-Käynnistysmetodissa *__init__* luodaan oliolle kaksi **kenttää**: *kaava* ja *moolimassa*. Kenttiin pitää viitata
+Käynnistysmetodissa *_init_* luodaan oliolle kaksi **kenttää**: *kaava* ja *moolimassa*. Kenttiin pitää viitata
 metodin *self*-parametrin avulla.
 
 Katsotaan, mitä määrittelemällämme luokalla voidaan nyt tehdä. Luodaan *Molekyyli*-luokkaan pohjautuvat oliot *metaani* ja *etaani*:
@@ -44,8 +44,8 @@ Katsotaan, mitä määrittelemällämme luokalla voidaan nyt tehdä. Luodaan *Mo
 metaani = Molekyyli("CH4", 16.04) 
 etaani = Molekyyli("C2H6", 30.07)
 ```
-Käsky *Molekyyli("CH4", 16.04)* tarkoittaa, että *Molekyyli*-luokan *__init__*-metodia kutsutaan parametreilla "CH4" ja 
-16.04 (*self*-parametria ei anneta, vaan Python antaa sen *__init__*-käynnistysmetodille automaattisesti). Käsky palauttaa
+Käsky *Molekyyli("CH4", 16.04)* tarkoittaa, että *Molekyyli*-luokan *_init_*-metodia kutsutaan parametreilla "CH4" ja 
+16.04 (*self*-parametria ei anneta, vaan Python antaa sen *_init_*-käynnistysmetodille automaattisesti). Käsky palauttaa
 uuden olion, jonka kentät *kaava* ja *moolimassa* on täytetty arvoilla "CH4" ja 16.04. Tämä olio sijoitetaan muuttujaan *metaani*.
 ## Kokonainen olioesimerkki
 Luokkamäärittelyn pohjalta voi luoda mielivaltaisen määrän uusia olioita. Katsotaan kokonaisen esimerkin avulla, miten
