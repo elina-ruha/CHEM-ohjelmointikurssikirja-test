@@ -1,0 +1,8 @@
+.CodeMirror {
+  height: auto !important;
+}
+
+.CodeMirror-scroll {
+  min-height: 50px; /* prevents total collapse on empty cells */
+  max-height: none !important;
+}
