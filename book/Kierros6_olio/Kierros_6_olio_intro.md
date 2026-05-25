@@ -108,19 +108,19 @@ print(lista.count(1))
 ### Tehtävä 6.0.2
 Alla on yksinkertainen luokka Atomi, joka sisältää *laske_varaus*-metodin alkuaineelle. Täydennä koodi niin, että luokka toimisi.
 ```{code-cell} ipython3
-"""Täydennä""" Atomi:
-    def __"""Täydennä"""__(self, merkki, protonit, elektronit):
+TÄYDENNÄ Atomi:
+    def __TÄYDENNÄ__(self, merkki, protonit, elektronit):
         self.merkki = merkki
         self.protonit = protonit
         self.elektronit = elektronit
         
-    def laske_varaus("""Täydennä"""):
+    def laske_varaus(TÄYDENNÄ):
         varaus = self.protonit - self.elektronit
         if varaus > 0:
             return "+" + str(varaus)
         return varaus
     
-fluori = """Täydennä"""("F", 9, 10)   
-varaus = fluori."""Täydennä"""()
+fluori = TÄYDENNÄ("F", 9, 10)   
+varaus = fluori.TÄYDENNÄ()
 print(varaus)
 ```
