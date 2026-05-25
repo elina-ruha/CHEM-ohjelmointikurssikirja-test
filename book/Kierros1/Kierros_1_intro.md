@@ -96,7 +96,6 @@ Alla on kaksi esimerkkiä oppimateriaalin tehtävätyypeistä.
 ::::{question}
 :type: multiple-choice
 :variant: single-select
-:showanswer:
 :nocaption:
 :columns: 1
 
@@ -113,7 +112,6 @@ Mitä ohjelmointikieltä tällä kurssilla opetellaan?
 ::::{question}
 :type: multiple-choice
 :variant: single-select
-:showanswer:
 :nocaption:
 :columns: 1
 
@@ -133,6 +131,6 @@ Täydennä koodi niin, että ohjelma tulostaa:
 > Kolme
 ```{code-cell} ipython3
 print("Yksi")
-"""Täydennä"""("Kaksi")
+TÄYDENNÄ("Kaksi")
 pint("Kolme")
 ```
