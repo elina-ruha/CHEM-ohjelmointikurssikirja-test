@@ -14,9 +14,7 @@ kernelspec:
 # Kierros 1
 Kurssin ensimmäisellä kierroksella tutustutaan ohjelmoinnin peruskäsitteisiin ja Python-ohjelmointikielen perusteisiin.
 ## 1. Spyder-ohjelmointiympäristön asentaminen
-<p> Ohjelmointitehtävien tekemiseksi tarvitset esimerkiksi Spyder-ohjelmointiympäristön,
-joka sisältää myös Python-kehitysympäristön. Oppimateriaalin Lisämateriaalia-luku
-  sisältää Spyderin asennusohjeen ja Spyderin käyttöohjeita. </p>
+Ohjelmointitehtävien tekemiseksi tarvitset esimerkiksi Spyder-ohjelmointiympäristön, joka sisältää myös Python-kehitysympäristön. Oppimateriaalin Lisämateriaalia-luku sisältää [Spyderin asennusohjeen](../Lisamateriaali/Spyder_asennus.md) ja Spyderin käyttöohjeita.
 
 ## 2. Oppimateriaalin lukuohje
 Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
