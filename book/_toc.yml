@@ -23,6 +23,9 @@ parts:
       - file: Kierros1/s1_10.md
       - file: Kierros1/s1_11.md
       - file: Kierros1/kertaus1.md
+    - file: Kierros2/Kierros_2_intro.md
+      sections:
+      - file: Kierros2/s2_1.md
     - file: Kierros4/Kierros_4_intro.md
       sections:
       - file: Kierros4/s4_1.md
