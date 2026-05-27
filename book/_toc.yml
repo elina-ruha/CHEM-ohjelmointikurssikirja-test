@@ -18,6 +18,8 @@ parts:
       - file: Kierros1/s1_5.md
       - file: Kierros1/s1_6.md
       - file: Kierros1/s1_7.md
+      - file: Kierros1/s1_8.md
+      - file: Kierros1/s1_9.md
     - file: Kierros4/Kierros_4_intro.md
       sections:
       - file: Kierros4/s4_1.md
