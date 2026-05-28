@@ -33,6 +33,10 @@ parts:
       - file: Kierros2/s2_6.md
       - file: Kierros2/s2_7.md
       - file: Kierros2/kertaus2.md
+    - file: Kierros3/Kierros_3_intro.md
+      sections:
+      - file: Kierros3/s3_1.md
+      - file: Kierros3/kertaus3.md
     - file: Kierros4/Kierros_4_intro.md
       sections:
       - file: Kierros4/s4_1.md
