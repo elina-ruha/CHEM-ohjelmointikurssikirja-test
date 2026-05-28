@@ -28,6 +28,8 @@ parts:
       - file: Kierros2/s2_1.md
       - file: Kierros2/s2_2.md
       - file: Kierros2/s2_3.md
+      - file: Kierros2/s2_4.md
+      - file: Kierros2/s2_5.md
     - file: Kierros4/Kierros_4_intro.md
       sections:
       - file: Kierros4/s4_1.md
