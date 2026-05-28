@@ -3,7 +3,7 @@ Kierroksen 2 pikakertaus ennen kierrosta 3.
 :::::{card} Tehtävä 2.8.1
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -21,7 +21,7 @@ Millä avainsanalla aloitetaan funktion määrittely?
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -39,7 +39,7 @@ Millä käskyllä määritellään funktion paluuarvo?
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -53,7 +53,7 @@ Voiko funktiolla olla nolla parametria?
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -67,7 +67,7 @@ Voiko funktiolla olla useita paluuarvoja?
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -85,7 +85,7 @@ Mitä tulostuu käskyllä print(f"{luku:.2f}") kun muuttujan *luku* arvo on 3.14
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -101,7 +101,7 @@ Minkä import-komennon tarvitset, jotta voit käyttää sinifunktiota sin(x)?
 ::::
 ::::{question}
 :type: multiple-choice
-:variant: multiple-select
+:variant: single-select
 :nocaption:
 :columns: 1
 
@@ -115,3 +115,4 @@ Millä math-moduulin funktiolla voit vertailla liukulukujen yhtäsuuruutta?
 > Yritä uudelleen!
 ---
 ::::
+:::::
