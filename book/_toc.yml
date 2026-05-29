@@ -37,6 +37,12 @@ parts:
       sections:
       - file: Kierros3/s3_1.md
       - file: Kierros3/s3_2.md
+      - file: Kierros3/s3_3.md
+      - file: Kierros3/s3_4.md
+      - file: Kierros3/s3_5.md
+      - file: Kierros3/s3_6.md
+      - file: Kierros3/s3_7.md
+      - file: Kierros3/s3_8.md
       - file: Kierros3/kertaus3.md
     - file: Kierros4/Kierros_4_intro.md
       sections:
