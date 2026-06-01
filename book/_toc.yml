@@ -80,6 +80,7 @@ parts:
   - caption: Lisämateriaali
     chapters:
     - file: Lisamateriaali/Spyder_asennus.md
+    - file: Lisamateriaali/spyder_käyttö.md
   - caption: Muuta
     chapters:
     - file: references.md
