@@ -12,7 +12,7 @@ Valitse se. Spyderin käynnistyminen voi kestää **jopa minuutin**.
 Spyder ja sen keskeisimmät toiminnot on esitetty alla olevassa kuvassa:
 ```{figure} ../figures/spyder-toim.png
 ---
-width: 70%
+width: 80%
 align: center
 ---
 ```
