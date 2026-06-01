@@ -22,12 +22,11 @@ Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse valitsemalla oppimateriaalin oikeasta yläkulmasta rakettisymbolin ja painamalla `Live Code` . Live Code tarvitsee ottaa käyttöön vain kerran per sivu. Useimmiten Live Code on automaattisesti otettu käyttöön oppimateriaalissa, jolloin sitä ei tarvitse itse laittaa päälle.
+Kun oppimateriaalissa näytetään, mitä Python-koodi tulostaa, sen voi kokeilla itse "ajamalla" koodin koodilaatikon alareunan `run`-painikkeesta. Tällöin Live Code, eli interaktiivinen koodausominaisuus, on päällä ja koodilaatikoiden alareunassa on painikkeet `run`, `run all`, `add cell` ja `clear`. Koodia voi myös editoida suoraan koodilaatikossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. Tekemäsi muutokset eivät tallennu kirjaan. 
 
-Huomaat, että Live Code on päällä kun koodilaatikoiden alareunaan ilmestyy painikkeet `run`, `run all`, `add cell` ja `clear`. Tällöin koodin voi "ajaa" painamalla `run` . Koodia voi myös editoida suoraan koodilaatikossa tai lisätä uuden tyhjän koodilaatikon alle `add cell` -painikkeesta. Tekemäsi muutokset eivät tallennu kirjaan. 
-
-Kokeile laittaa Live Code päälle ja aja alla oleva koodi.
+Kokeile ajamista alla olevalla koodilla.
 ```{code-cell} ipython3
+:tags: ["auto-execute-page"]
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
@@ -61,7 +60,7 @@ print("Eka ohjelmani")
 #Jatketaan!
 print("Moi!") #Rivin loppuun voi myös lisätä kommentteja
 ```
-Kokeile tulostaa ylläoleva koodi. Huomaa, että kommentit eivät tulostuneet.
+Kokeile tulostaa yllä oleva koodi. Huomaa, että kommentit eivät tulostuneet.
 
 Monirivisiä kommentteja voi kirjoittaa """"*kommentti*"""" -merkinnällä:
 ```{code-cell} ipython3
