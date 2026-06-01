@@ -7,7 +7,10 @@ Kierroksen 5 pikakertaus ennen kierrosta 6.
 :nocaption:
 :columns: 1
 
-Mitä haluat tehdä tiedostolle komennolla: tiedosto = open("tulokset.txt", "r")?
+Mitä haluat tehdä tiedostolle seuraavalla komennolla?
+```
+tiedosto = open("tulokset.txt", "r")
+```
 ---
 [x] lukea
 > Oikein!
@@ -88,7 +91,10 @@ NumPy-taulukon voi muuttaa tekstitiedostoksi funktiolla...
 :nocaption:
 :columns: 1
 
-Minkä virheen seuraava komento antaisi: luku = int("kaksi")?
+Minkä virheen seuraava komento antaisi? 
+``` ipython3
+luku = int("kaksi")
+```
 ---
 [ ] IndentationError
 > Yritä uudelleen!
