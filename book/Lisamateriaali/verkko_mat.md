@@ -9,7 +9,6 @@ Tältä sivulta löydät linkkejä muihin verkosta löytyviin Python-oppimateria
 - Osoite:
 ```{video} https://www.youtube.com/watch?v=YYXdXT2l-Gg&t=1s
 ---
-width: 80%
 align: center
 ---
 ```
