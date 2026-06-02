@@ -83,6 +83,7 @@ parts:
     - file: Lisamateriaali/spyder_käyttö.md
     - file: Lisamateriaali/coderunner_testit.md
     - file: Lisamateriaali/virheet.md
+    - file: Lisamateriaali/main_funktio.md
   - caption: Muuta
     chapters:
     - file: references.md
