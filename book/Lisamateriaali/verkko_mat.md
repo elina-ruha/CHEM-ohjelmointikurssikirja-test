@@ -21,8 +21,6 @@ align: center
 - Kielioppi: <https://docs.python.org/3/reference/index.html>
 ## pythontutor.com
 - Omien Python-koodien havainnoillistaminen
-- <http://www.pythontutor.com/>
 ## Stackoverflow.com
 - Miljoonia ohjelmointikysymyksiä ja vastauksia niihin. Kun teet englanninkielisen Google-haun, löydät usein vastauksen
  ongelmaasi täältä.
-- http://stackoverflow.com/
