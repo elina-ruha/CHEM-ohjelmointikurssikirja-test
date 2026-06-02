@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# main-funktio
+# *main*-funktio
 Jos olet aiemmin osallistunut kurssille **CS-A1111 Ohjelmoinnin peruskurssi Y1**, olet todennäköisesti tutustunut
 lähestymistapaan, jossa Python-ohjelmat kirjoitetaan aina *main*-funktion sisään. Esimerkiksi näin:
 ``` ipython3
