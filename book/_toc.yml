@@ -81,6 +81,8 @@ parts:
     chapters:
     - file: Lisamateriaali/Spyder_asennus.md
     - file: Lisamateriaali/spyder_käyttö.md
+    - file: Lisamateriaali/coderunner_testit.md
+    - file: Lisamateriaali/virheet.md
   - caption: Muuta
     chapters:
     - file: references.md
