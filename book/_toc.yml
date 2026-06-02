@@ -84,6 +84,7 @@ parts:
     - file: Lisamateriaali/coderunner_testit.md
     - file: Lisamateriaali/virheet.md
     - file: Lisamateriaali/main_funktio.md
+    - file: Lisamateriaali/verkko_mat.md
   - caption: Muuta
     chapters:
     - file: references.md
