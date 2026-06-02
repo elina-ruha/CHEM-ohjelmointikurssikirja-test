@@ -73,14 +73,13 @@ Sitten jatketaan!
 print("Moi!")
 ```
 ## 5. Muita Python-oppimateriaaleja
-<p> Lisämateriaalin Python-verkkomateriaaleja -kappaleessa on listattu 
-  hyviä verkosta löytyviä oppimateriaaleja, joita voi myös hyödyntää Python-ohjelmoinnin opettelussa.
-  Jos pidät opiskelusta videomateriaalien avulla, sivulta löytyy linkkejä videomuotoisiin oppimateriaaleihin. </p>
+Lisämateriaalin [Python-verkkomateriaaleja](../Lisamateriaali/verkko_mat.md) -kappaleessa on listattu  hyviä verkosta 
+löytyviä oppimateriaaleja, joita voi myös hyödyntää Python-ohjelmoinnin opettelussa. Jos pidät opiskelusta 
+videomateriaalien avulla, sivulta löytyy linkkejä videomuotoisiin oppimateriaaleihin.
 
 ## 6. Jos olet aiemmin osallistunut kurssille *Ohjelmoinnin peruskurssi Y1*
-<p> Jos olet aiemmin osallistunut Aallon yleiselle Python-kurssille, 
-  tutustuthan lisämateriaalin kappaleeseen main-funktio ennen kuin 
-  aloitat tämän kurssin tehtävien tekemisen. </p>
+Jos olet aiemmin osallistunut Aallon yleiselle Python-kurssille, tutustuthan lisämateriaalin kappaleeseen 
+[*main*-funktio](../Lisamateriaali/main_funktio.md) ennen kuin aloitat tämän kurssin tehtävien tekemisen.
 
 ## 7. Oppimateriaalin sisältämät tehtävät
 Oppimateriaali sisältää myös erilaisia tehtäviä, joilla voit tarkistaa, kuinka hyvin olet sisäistänyt oppimateriaalissa käsitellyt asiat.
