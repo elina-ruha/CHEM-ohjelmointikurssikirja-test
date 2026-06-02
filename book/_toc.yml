@@ -85,6 +85,7 @@ parts:
     - file: Lisamateriaali/virheet.md
     - file: Lisamateriaali/main_funktio.md
     - file: Lisamateriaali/verkko_mat.md
+    - file: Lisamateriaali/anaconda_asennus.md
   - caption: Muuta
     chapters:
     - file: references.md
