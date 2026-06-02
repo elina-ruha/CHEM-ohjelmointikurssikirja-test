@@ -39,6 +39,7 @@ ohjelmissa käytettäviä funktioita, mutta moduuli voidaan ajaa myös omana ohj
 tilanteet, joissa jokin toinen ohjelma kutsuu moduulin funktiota tai moduuli ajetaan sellaisenaan. 
 
 <p> Otetaan esimerkki, jossa meillä on määritelty laskin-moduuli (tiedosto laskin.py):</p>
+
 ``` ipython3
 # Moduuli laskin
 # Funktio tuplaa: palauttaa parametrin "luku" kaksinkertaisena
@@ -67,6 +68,7 @@ Ohjelma tulostaisi pelkästään
 
 <p> Toisaalta jos ajamme tiedoston laskin.py sellaisenaan (esimerkiksi Spyderissä), Python suorittaa laskin-moduulin
 main-funktion ja suoritus näyttää tältä:</p>
+
 > Anna kokonaisluku:\
 > :9\
 > Antamasi luku kaksinkertaisena on: 18
