@@ -100,7 +100,7 @@ kaatuessaan luo tracebackiä. Miten siis löytää virhe, kun sen sijaintia ei t
 ## Virheen löytäminen
 *print*-funktiot ovat yksinkertainen tapa löytää mahdollisia virheitä koodista. Alla oleva koodi kaatuu, mutta koska virhe 
 on ikuinen silmukka ei traceback-viestiä synny.
-```{code-cell} ipython3
+``` ipython3
 numero = 5
 kertoma = 1
 print("testi")
