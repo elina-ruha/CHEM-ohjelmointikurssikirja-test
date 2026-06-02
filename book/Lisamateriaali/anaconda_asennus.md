@@ -5,7 +5,7 @@ Tällä kurssilla suositellaan ensisijaisesti [Spyder-ohjelmointiympäristön](.
 Anaconda on isompi paketti, joka sisältää myös Spyderin. Mutta siinä on myös paljon turhaa, mitä tällä kurssilla ei tarvita.
 Anacondan lisenssi on tiukempi kuin Spyderin, eli sen henkilökohtainen käyttö opinnoissa on sallittua ilmaiseksi, mutta
 esim. kaupallinen käyttö vaatii maksullisen lisenssin.
-
+:::
 Aloita menemällä sivulle <https://www.anaconda.com/download/success>.
 
 Valitse käyttöjärjestelmä, jota käytät ja lataa **Python 3.11** tai uudempi. **Mac-käyttäjät**: sinun pitää päättää,
