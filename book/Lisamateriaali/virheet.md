@@ -75,10 +75,12 @@ useita eri funktiota, useista eri tiedostoista, tämän kaltainen viesti on erit
 IndexError: list index out of range
 ```
 Virhe on *IndexError* eli ohjelma yrittää kutsua listan alkiota, jota ei ole olemassa.
-
+:::{admonition} Huom!
+:class: note
 On mahdollista, että virhe aiheutuu kirjastossa kuten *numpy*. Tällöin traceback saattaa ilmoittaa virheen sijaitsevan 
 esim. rivillä 1000, jossain satunnaisessa tiedostossa. Tällöin täytyy etsiä viimeisin rivi tracback:ssä, joka sijaitsee
 itse luomassasi tiedostossa.
+:::
 ## Esimerkki 3
 Tracebackistä ei kuitenkaan aina ole apua. Otetaan esimerkiksi koodi
 ``` ipython3
