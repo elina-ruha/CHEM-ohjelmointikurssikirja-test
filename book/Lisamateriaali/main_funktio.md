@@ -70,6 +70,7 @@ Ohjelma tulostaisi pelkästään
 ```
 <p> Toisaalta jos ajamme tiedoston laskin.py sellaisenaan (esimerkiksi Spyderissä), Python suorittaa laskin-moduulin
 main-funktion ja suoritus näyttää tältä:</p>
+
 ```
 Anna kokonaisluku:
 > 9
