@@ -36,9 +36,10 @@ print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
 Tulostus:
->Nyt lasketaan!\
->11*11 on 121!
-
+```
+Nyt lasketaan!
+11*11 on 121!
+```
 ## 3. Oppimateriaalin esimerkkiohjelmien kokeileminen itse
 - Kopioi esimerkkiohjelman koodi Spyder-editoriin.
 - Aja koodi painamalla Spyderissä vihreää "Run"-painiketta tai F5-nappia.
