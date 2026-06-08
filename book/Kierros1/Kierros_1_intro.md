@@ -30,7 +30,7 @@ Kokeile ajamista alla olevalla koodilla.
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
 ```
-Välillä koodin tulostus voidaan näyttää harmaareunaisessa laatikossa itse koodin alapuolella. Esimerkiksi:
+Välillä koodin tulostus voidaan näyttää laatikossa itse koodin alapuolella. Esimerkiksi:
 ```ipython3
 print("Nyt lasketaan!")
 print("11*11 on", 11*11)
