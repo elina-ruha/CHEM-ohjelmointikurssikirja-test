@@ -20,10 +20,11 @@ def main():
 main()
 ```
 Ohjelman suoritus voisi näyttää esimerkiksi tältä:
-> Anna nimesi:\
-> :Karl\
-> Moi Karl
-
+```
+Anna nimesi:
+> Karl
+Moi Karl
+```
 Tällä kurssilla vastaava ohjelmat kannattaa kuitenkin kirjoittaa **ilman *main*-funktiota**. Eli:
 ``` ipython3
 nimi = input("Anna nimesi:\n")
@@ -64,15 +65,16 @@ import laskin
 print("5 x 2 on:", tuplaa(5))
 ```
 Ohjelma tulostaisi pelkästään
-> 5 x 2 on: 10
-
+```
+5 x 2 on: 10
+```
 <p> Toisaalta jos ajamme tiedoston laskin.py sellaisenaan (esimerkiksi Spyderissä), Python suorittaa laskin-moduulin
 main-funktion ja suoritus näyttää tältä:</p>
-
-> Anna kokonaisluku:\
-> :9\
-> Antamasi luku kaksinkertaisena on: 18
-
+```
+Anna kokonaisluku:
+> 9
+Antamasi luku kaksinkertaisena on: 18
+```
 Ratkaisevan tärkeässä roolissa on siis `__name__` -erikoismuuttuja, joka saa arvon "`__main__`", kun moduuli on ajettu
 omana ohjelmanaan (__ = kaksi alaviivaa peräkkäin).
 
