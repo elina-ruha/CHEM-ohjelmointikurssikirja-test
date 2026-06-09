@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.3 NumPy-taulukoiden siivuttaminen
+# NumPy-taulukoiden siivuttaminen
 NumPy-taulukoiden siivuttaminen toimii samaan tapaan kuin [listojen siivuttaminen](../Kierros3/s3_2.md). Merkinnässä 
 [*start:stop:askel*], *stop*-alkio ei kuulu enää siivuun. *askel*-osuus ei ole pakollinen. 
 
