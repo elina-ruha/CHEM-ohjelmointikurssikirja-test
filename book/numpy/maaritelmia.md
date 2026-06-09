@@ -1,4 +1,4 @@
-# 4.8 Matplotlib-määritelmiä
+# Matplotlib-määritelmiä
 Ajantasainen yhteenveto matplotlib.pyplot.plot-funktion parametreista löytyy osoitteesta:
 <https://matplotlib.org/devdocs/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plot>
 
