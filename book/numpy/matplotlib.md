@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.6 Matplotlib-kirjasto
+# Matplotlib-kirjasto
 Matplotlib-kirjasto sisältää erittäin monipuoliset työkalut erilaisten kuvaajien tekemiseen. Tällä kurssilla tutustumme
 *matplotlib.pyplot*-moduuliin, joka mahdollistaa kuvaajien piirtämisen hieman Matlabin tapaan. 
 
