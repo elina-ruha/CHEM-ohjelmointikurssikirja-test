@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.3 Listojen käsittely
+# Listojen käsittely
 Listoja voi muokata useilla erilaisilla funktioilla:
 ## Alkioiden lisääminen
 ```{code-cell} ipython3
