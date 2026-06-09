@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.6 Muuttujien näkyvyys
+# Muuttujien näkyvyys
 **Tärkeää**: Funktion sisällä määritellyt muuttujat, eli lokaalit muuttujat näkyvät vain kyseisessä funktiossa:
 ```{code-cell} ipython3
 def ratkaise_p(V, n, T):
