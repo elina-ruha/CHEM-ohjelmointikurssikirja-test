@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.7 Vakioiden määrittely
+# Vakioiden määrittely
 Usein ohjelmissa on hyvä määritellä joitain kiinteitä arvoja, jotka eivät muutu ajon aikana. Pythonissa ei ole varsinaista
 vakion käsitettä samaan tapaan kuin monissa muissa ohjelmointikielissä. Hyvä käytäntö on: 
 - Nimeä vakio ISOILLA_KIRJAIMILLA
