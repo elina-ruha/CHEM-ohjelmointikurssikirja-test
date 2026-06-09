@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.2 NumPy-taulukot (*array*)
+# NumPy-taulukot (*array*)
 NumPy-taulukoita ja muita NumPyn ominaisuuksia käytettäessä ohjelmaan pitää aina tuoda *numpy*-moduuuli **import**-käskyllä.
 Tällä kurssilla moduuli tuodaan aina seuraavalla käskyllä, jolloin NumPyn funktioita voi kutsua lyhennettä *np* käyttäen:
 ``` ipython3
