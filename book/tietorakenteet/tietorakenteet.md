@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.1 Pythonin tietorakenteita
+# Pythonin tietorakenteita
 Tähän mennessä olemme tutustuneet yksinkertaisiin tietotyyppeihin kuten *int*, *float*, *str* ja *bool*. Nämä tietotyypit
 ovat yksinkertaisia, koska niihin tallennetaan käytännössä vain yksi arvo, kuten yksi kokonaisluku. Mutta entä jos
 haluaisimme säilöä vaikka 1000 kokonaislukua? Emme varmaankaan haluaisi määritellä tuhatta muuttujaa?
