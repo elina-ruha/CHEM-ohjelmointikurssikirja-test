@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.1 Funktiot
+# Funktiot
 Tähän mennessä olemme jo käyttäneet muutamia Pythonin sisäänrakennettuja funktioita kuten *print*, *input* ja *round*: 
 - *print*-funktio tulostaa sille suluissa annetut tekstit ja muuttujat
 - *input*-funktio tulostaa sille annetun tekstin ja palauttaa käyttäjän syöttämän merkkijonon
