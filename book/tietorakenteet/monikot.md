@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.5 Monikot
+# Monikot
 Emme käytä paljon aikaa monikkojen käsittelyyn, sillä tämän kurssin puitteissa meille riittää tieto, että monikko on
 muuten kuin lista, mutta sitä ei voi muokata:
 ```{code-cell} ipython3
