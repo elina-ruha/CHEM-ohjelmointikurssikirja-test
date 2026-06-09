@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.2 Erilaisia funktioita
+# Erilaisia funktioita
 Tässä osiossa on useita esimerkkejä erilaisista funktiosta. Esimerkkejä on parasta havainnollistaa ajamalla koodi
 oppimateriaalissa tai kopioimalla koodin Spyderiin ja ajamalla siellä.
 ## 1. Funktiolla ei tarvitse välttämättä olla yhtään parametria:
