@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.5 NumPyn matemaattiset funktiot
+# NumPyn matemaattiset funktiot
 Aloitetaan luomalla yksiulotteinen taulukko *v*:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
