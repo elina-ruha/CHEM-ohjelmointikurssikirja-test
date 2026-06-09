@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.3 Muotoiltu tulostaminen f-merkkijonoilla tai *str.format*-funktiolla
+# Muotoiltu tulostaminen f-merkkijonoilla tai *str.format*-funktiolla
 Tähän asti olemme käyttäneet *print*-funktiota tulostamiseen varsin suoraviivaisesti:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
