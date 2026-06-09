@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.4 Matemaattiset funktiot (math)
+# Matemaattiset funktiot (math)
 Pythonin **math**-niminen *moduuli* sisältää suuren määrän erilaisia matemaattisia funktioita ja vakioita. Moduulien
 luomisesta ja käyttämisestä kerrotaan lisää [seuraavassa luvussa](../Kierros2/s2_5.md), mutta ennen kuin sukellamme
 syvemmälle moduulien maailmaan, otetaan math-moduulin sisältämät matemaattiset funktiot käyttöön.
