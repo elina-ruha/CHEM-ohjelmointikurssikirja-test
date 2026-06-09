@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.9 NumPy-polynomit
+# NumPy-polynomit
 Kemian tekniikassa haluamme usein sovittaa polynomeja mittausdataan.  Polynomien käsittelyssä voimme käyttää
 *[numpy.poly1d](https://numpy.org/doc/stable/reference/generated/numpy.poly1d.html)*-toimintoa (varsinaisesti kyseessä
 on "luokka", joita käsitellään olio-ohjelmoinnin yhteydessä kurssin 6. kierroksella).
