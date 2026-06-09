@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.2 Listat
+# Listat
 ## Yhtä tietotyyppiä sisältävät listat
 Alla on esimerkkejä yksinkertaisista listoista (engl. *list*), joissa on pelkästään yhden tyyppisiä arvoja:
 ``` ipython3
