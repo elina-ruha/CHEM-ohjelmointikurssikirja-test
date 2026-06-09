@@ -79,13 +79,13 @@ parts:
       - file: Kierros6_olio/s6_9.md
   - caption: Lisämateriaali
     chapters:
-    - file: Lisamateriaali/Spyder_asennus.md
-    - file: Lisamateriaali/spyder_käyttö.md
-    - file: Lisamateriaali/coderunner_testit.md
-    - file: Lisamateriaali/virheet.md
-    - file: Lisamateriaali/main_funktio.md
-    - file: Lisamateriaali/verkko_mat.md
-    - file: Lisamateriaali/anaconda_asennus.md
+    - file: lisamateriaali/spyder_asennus.md
+    - file: lisamateriaali/spyder_kaytto.md
+    - file: lisamateriaali/coderunner.md
+    - file: lisamateriaali/virheet.md
+    - file: lisamateriaali/main_funktio.md
+    - file: lisamateriaali/verkko_mat.md
+    - file: lisamateriaali/anaconda.md
   - caption: Muuta
     chapters:
     - file: references.md
