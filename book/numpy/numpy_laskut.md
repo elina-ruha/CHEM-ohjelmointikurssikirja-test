@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 4.4 Laskuoperaatiot NumPy-taulukoilla 
+# Laskuoperaatiot NumPy-taulukoilla 
 NumPy-taulukoiden ja yksittäisten lukuarvojen laskuoperaatiot onnistuvat suoraviivaisesti. Luodaan ensin uusi taulukko 
 (yksiulotteinen vektori). NumPy suorittaa laskuoperaation jokaiselle alkiolle: 
 ```{code-cell} ipython3
