@@ -10,20 +10,19 @@ parts:
     restart_numbering: false        # Default value (line can be removed), whether to restart numbering for this part, configuration part of TeachBooks' version of sphinx-external-toc (https://github.com/TeachBooks/sphinx-external-toc?tab=readme-ov-file#toc-tree-options)
     chapters:
     - file: johdanto.md
-    - file: Kierros1/Kierros_1_intro.md
+    - file: perusteet/intro.md
       sections:
-      - file: Kierros1/s1_1.md
-      - file: Kierros1/s1_2.md
-      - file: Kierros1/s1_3.md
-      - file: Kierros1/s1_4.md
-      - file: Kierros1/s1_5.md
-      - file: Kierros1/s1_6.md
-      - file: Kierros1/s1_7.md
-      - file: Kierros1/s1_8.md
-      - file: Kierros1/s1_9.md
-      - file: Kierros1/s1_10.md
-      - file: Kierros1/s1_11.md
-      - file: Kierros1/kertaus1.md
+      - file: perusteet/print_input.md
+      - file: perusteet/muuttujat.md
+      - file: perusteet/arit_operaatiot.md
+      - file: perusteet/tyyppimuunnos.md
+      - file: perusteet/round.md
+      - file: perusteet/if_else.md
+      - file: perusteet/bool.md
+      - file: perusteet/not_and_or.md
+      - file: perusteet/laskujarjestys.md
+      - file: perusteet/while.md
+      - file: perusteet/for_range.md
     - file: Kierros2/Kierros_2_intro.md
       sections:
       - file: Kierros2/s2_1.md
@@ -89,6 +88,5 @@ parts:
     - file: lisamateriaali/anaconda.md
   - caption: Muuta
     chapters:
-    - file: references.md
     - file: changelog.md
     - file: credits.md
