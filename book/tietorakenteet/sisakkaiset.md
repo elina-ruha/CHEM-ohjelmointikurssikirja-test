@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.7 Sisäkkäiset tietorakenteet
+# Sisäkkäiset tietorakenteet
 Pythonin erilaisia tietorakenteita voi käyttää myös sisäkkäin. Jos listoja sisältävä lista kuulostaa erikoiselta, 
 suosittelen vahvasti kokeilemaan alla olevia esimerkkejä Spyderissä ja kokeilemaan niiden muokkausta.
 ## Sisäkkäiset listat
