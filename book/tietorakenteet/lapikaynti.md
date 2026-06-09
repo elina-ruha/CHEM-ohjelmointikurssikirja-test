@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.4 Listojen läpikäynti (*for, zip*)
+# Listojen läpikäynti (*for, zip*)
 ## Listan läpikäyminen *for*-silmukan avulla
 Kun meillä on tietoja tallennettuna listaan, haluamme yleensä myös hyödyntää niitä. Tätä varten tarvitsemme menetelmän
 listojen läpikäyntiin. Seuraava tapa ei olisi kovin kätevä, jos listassa olisi tuhat alkiota:
