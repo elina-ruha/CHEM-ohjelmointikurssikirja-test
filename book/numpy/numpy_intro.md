@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# Kierros 4
+# NumPy ja Matplotlib
 Neljännellä kierroksella otamme käyttöön **numpy**-kirjaston, joka sisältää luonnontieteissä
 ja tekniikassa erityisen hyödyllisen tietorakenteen, eli taulukon (**array**). Taulukoiden avulla
 voimme helposti ja tehokkaasti kuvata vektoreita, matriiseja ja mitä tahansa N-ulotteisia datajoukkoja.
