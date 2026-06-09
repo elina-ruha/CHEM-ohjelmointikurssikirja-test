@@ -1,4 +1,4 @@
-# 4.1 NumPy-kirjasto
+# NumPy-kirjasto
 [NumPy](http://www.numpy.org/)-kirjasto sisältää numeerisen laskennan kannalta keskeisiä työkaluja:
 - *ndarray* (tai *array*) -tietorakenne eli *taulukko*. Taulukoilla voidaan kuvata esimerkiksi vektoreita, matriiseja ja
    mitä tahansa moniulotteisia datajoukkoja. Numpy-taulukot soveltuvat erittäin hyvin esimerkiksi mittausdatan käsittelyyn
