@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.6 Sanakirjat
+# Sanakirjat
 Sanakirjassa alkiot määritellään **avain:arvo** -pareina. Määrittelyn jälkeen avainta vastaavan arvon voi noutaa näin:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
