@@ -42,18 +42,17 @@ parts:
       - file: tietorakenteet/sanakirjat.md
       - file: tietorakenteet/sisakkaiset.md
       - file: tietorakenteet/str_listana.md
-    - file: Kierros4/Kierros_4_intro.md
+    - file: numpy/numpy_intro.md
       sections:
-      - file: Kierros4/s4_1.md
-      - file: Kierros4/s4_2.md
-      - file: Kierros4/s4_3.md
-      - file: Kierros4/s4_4.md
-      - file: Kierros4/s4_5.md
-      - file: Kierros4/s4_6.md
-      - file: Kierros4/s4_7.md
-      - file: Kierros4/s4_8.md
-      - file: Kierros4/s4_9.md
-      - file: Kierros4/kertaus4.md
+      - file: numpy/numpykirjasto.md
+      - file: numpy/nparray.md
+      - file: numpy/siivuttaminen.md
+      - file: numpy/numpy_laskut.md
+      - file: numpy/np_math.md
+      - file: numpy/matplotlib.md
+      - file: numpy/pyplot.md
+      - file: numpy/maaritelmia.md
+      - file: numpy/polynomit.md
     - file: Kierros5/Kierros_5_intro.md
       sections:
       - file: Kierros5/s5_1.md
