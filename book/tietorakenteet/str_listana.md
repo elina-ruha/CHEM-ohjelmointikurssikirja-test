@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 3.8 Merkkijonojen käsittely listoina
+# Merkkijonojen käsittely listoina
 Merkkijonot ovat läheistä sukua listoille. Merkkijonon voi muuntaa suoraan listaksi:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
