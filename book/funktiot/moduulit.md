@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2.5 Moduulit
+# Moduulit
 Suuremmat ohjelmakokonaisuudet on aina parasta jakaa *moduuleiksi*. Moduulien avulla ohjelman rakenne pysyy paremmin
 hallinnassa ja moduuleja voi käyttää helposti uudelleen toisissa ohjelmissa.
 
