@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# 4.7 matplotlib.pyplot-moduuli
+# *matplotlib.pyplot*-moduuli
 Matplotlib-kuvaajia piirrettäessä ohjelmaan pitää aina tuoda *matplotlib.pyplot*-moduuli **import**-käskyllä.
 Matplotlibiä käytettäesssä tarvitaan useimmiten myös NumPy-moduuli. 
 Tällä kurssilla nämä moduulit tuodaan aina seuraavilla käskyillä, jolloin voidaan käyttää lyhenteitä *np* ja *plt*.
