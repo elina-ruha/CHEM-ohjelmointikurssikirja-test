@@ -23,16 +23,15 @@ parts:
       - file: perusteet/laskujarjestys.md
       - file: perusteet/while.md
       - file: perusteet/for_range.md
-    - file: Kierros2/Kierros_2_intro.md
+    - file: funktiot/funktiot_intro.md
       sections:
-      - file: Kierros2/s2_1.md
-      - file: Kierros2/s2_2.md
-      - file: Kierros2/s2_3.md
-      - file: Kierros2/s2_4.md
-      - file: Kierros2/s2_5.md
-      - file: Kierros2/s2_6.md
-      - file: Kierros2/s2_7.md
-      - file: Kierros2/kertaus2.md
+      - file: funktiot/funktiot.md
+      - file: funktiot/erilaiset_funktiot.md
+      - file: funktiot/f_string.md
+      - file: funktiot/math.md
+      - file: funktiot/moduulit.md
+      - file: funktiot/nakyvyys.md
+      - file: funktiot/vakiot.md
     - file: Kierros3/Kierros_3_intro.md
       sections:
       - file: Kierros3/s3_1.md
