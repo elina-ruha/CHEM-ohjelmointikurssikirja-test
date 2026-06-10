@@ -9,10 +9,10 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.4 scipy.linalg
+# scipy.linalg
 Moduuli [scipy.linalg](https://docs.scipy.org/doc/scipy/reference/linalg.html) sisältää suuren määrän lineaarialgebraan
 liittyviä työkaluja (esim. matriisioperaatiot, ominaisarvo-ongelmien ratkaiseminen). Kappaleessa 
-[NumPyn matemaattiset funktiot](../Kierros4/s4_5.md) mainittiin aiemmin moduuli 
+[NumPyn matemaattiset funktiot](../numpy/np-math.md) mainittiin aiemmin moduuli 
 [numpy.linalg](https://docs.scipy.org/doc/numpy/reference/routines.linalg.html), joka sisältää
 samoja työkaluja. SciPyn lineaarialgebramoduuli on huomattavasti NumPy-moduulia laajempi.
 
