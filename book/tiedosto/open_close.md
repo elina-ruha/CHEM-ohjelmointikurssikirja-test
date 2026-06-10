@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 
-# 5.1 Tiedostojen avaaminen ja käsittely
+# Tiedostojen avaaminen ja käsittely
 ## Tiedostojen avaaminen *open*-funktiolla
 Tiedostot avataan Pythonissa [*open*](https://docs.python.org/3/library/functions.html#open)-funktiolla, jota kutsutaan näin:
 ``` ipython3
