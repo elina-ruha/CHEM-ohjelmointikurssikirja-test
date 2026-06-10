@@ -12,8 +12,9 @@ kernelspec:
 ---
 
 # Johdanto
+Käydään ensin läpi yleisiä tietoja oppimateriaalista ja ohjelmointitehtävien tekemisestä.
 ## 1. Spyder-ohjelmointiympäristön asentaminen
-Ohjelmointitehtävien tekemiseksi tarvitset esimerkiksi Spyder-ohjelmointiympäristön, joka sisältää myös Python-kehitysympäristön. Oppimateriaalin Lisämateriaalia-luku sisältää [Spyderin asennusohjeen](../Lisamateriaali/Spyder_asennus.md) ja [Spyderin käyttöohjeita](../Lisamateriaali/spyder_käyttö.md).
+Ohjelmointitehtävien tekemiseksi tarvitset esimerkiksi Spyder-ohjelmointiympäristön, joka sisältää myös Python-kehitysympäristön. Oppimateriaalin Lisämateriaali-luku sisältää [Spyderin asennusohjeen](lisamateriaali/spyder-asennus.md) ja [Spyderin käyttöohjeita](lisamateriaali/spyder-kaytto.md).
 
 ## 2. Oppimateriaalin lukuohje
 Kun oppimateriaalissa esitetään Python-koodia, se näyttää tältä:
@@ -73,13 +74,13 @@ Sitten jatketaan!
 print("Moi!")
 ```
 ## 5. Muita Python-oppimateriaaleja
-Lisämateriaalin [Python-verkkomateriaaleja](../Lisamateriaali/verkko_mat.md) -kappaleessa on listattu  hyviä verkosta 
+Lisämateriaalin [Python-verkkomateriaaleja](lisamateriaali/verkko-mat.md) -kappaleessa on listattu  hyviä verkosta 
 löytyviä oppimateriaaleja, joita voi myös hyödyntää Python-ohjelmoinnin opettelussa. Jos pidät opiskelusta 
 videomateriaalien avulla, sivulta löytyy linkkejä videomuotoisiin oppimateriaaleihin.
 
 ## 6. Jos olet aiemmin osallistunut kurssille *Ohjelmoinnin peruskurssi Y1*
 Jos olet aiemmin osallistunut Aallon yleiselle Python-kurssille, tutustuthan lisämateriaalin kappaleeseen 
-[*main*-funktio](../Lisamateriaali/main_funktio.md) ennen kuin aloitat tämän kurssin tehtävien tekemisen.
+[*main*-funktio](lisamateriaali/main-funktio.md) ennen kuin aloitat tämän kurssin tehtävien tekemisen.
 
 ## 7. Oppimateriaalin sisältämät tehtävät
 Oppimateriaali sisältää myös erilaisia tehtäviä, joilla voit tarkistaa, kuinka hyvin olet sisäistänyt oppimateriaalissa käsitellyt asiat.
@@ -88,7 +89,7 @@ Oppaassa olevien tehtävien tarkoitus on tukea oppimista, ne eivät vaikuta kurs
 
 Alla on kaksi esimerkkiä oppimateriaalin tehtävätyypeistä.
 
-:::::{card} Tehtävä 1.0.1
+:::::{card} Tehtävä 1
 ::::{question}
 :type: multiple-choice
 :variant: single-select
@@ -120,7 +121,7 @@ Minkä perusteella kurssin arvosana määräytyy?
 ---
 ::::
 :::::
-### Tehtävä 1.0.2
+### Tehtävä 2
 Täydennä koodi niin, että ohjelma tulostaa:
 ```
 Yksi
