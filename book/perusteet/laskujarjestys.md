@@ -52,8 +52,8 @@ print(3 > 4 or 5 < 6 and 7 > 8)
 # Tulostaa True, koska not kääntää ehdon 7 > 8 arvosta False arvoon True
 print(3 > 4 or (5 < 6 and not 7 > 8))
 ```
-### Tehtävä 1.9.1
-Täydennä loogiset operaattorit oikeisiin kohtiin niin, että lauseke tulostaa True. Vaihtoehtoja täydennykseen: `not`, `or`, `or`, `and`.
+### Tehtävä
+Täydennä loogiset operaattorit oikeisiin kohtiin niin, että lauseke tulostaa `True`. Vaihtoehtoja täydennykseen: `not`, `or`, `or`, `and`.
 ```{code-cell} ipython3
 print(99 < 98 TÄYDENNÄ 55 < 54 TÄYDENNÄ (36 < 37 TÄYDENNÄ TÄYDENNÄ 1 > 2))
 ```
