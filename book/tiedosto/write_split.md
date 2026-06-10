@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 5.2 Datan lukeminen ja kirjoittaminen
+# Datan lukeminen ja kirjoittaminen
 Luodaan tiedosto *halogeenit.txt*, joka sisältää halogeenien symbolit. Voimme kirjoittaa tiedostoon käyttämällä *write()*-funktiota:
 ```{code-cell} ipython3
 halogeenit = ['F', 'Cl', 'Br', 'I']
@@ -96,7 +96,7 @@ for rivi in tiedosto:
 tiedosto.close()
 ```
 ## Numeroarvojen lukeminen tiedostosta
-Meilä on käytössämme datatiedosto [moolimassat.txt](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/main/book/Kierros5/moolimassat.txt), 
+Meilä on käytössämme datatiedosto [moolimassat.txt](../tiedosto/moolimassat.txt), 
 joka sisältää kullakin rivillä yhdisteen nimen, moolimassan (g/mol) ja massan (g) välilyönneillä erotettuna. 
 Tiedoston kaksi ensimmäistä riviä näyttävät tältä:
 ``` ipython3
@@ -119,7 +119,7 @@ for rivi in tiedosto:
 tiedosto.close()
 ```
 ## Toinen esimerkki numeroarvojen lukemisesta
-Meillä on käytössämme datatiedosto [temps.txt](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/fb3b93a4419091f766a723cbf6cea4fce8314b43/book/Kierros5/temps.txt), joka sisältää kullakin rivillä alkuaineen
+Meillä on käytössämme datatiedosto [temps.txt](../tiedosto/temps.txt), joka sisältää kullakin rivillä alkuaineen
 symbolin, nimen, sulamispisteen (°C) ja kiehumispisteen (°C). Tiedoston kaksi ensimmäistä riviä näyttävät tältä:
 ``` ipython3
 Sc, skandium   , 1541.0 ,2830
