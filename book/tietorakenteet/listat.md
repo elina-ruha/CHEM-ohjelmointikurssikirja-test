@@ -133,7 +133,7 @@ jalokaasut_kopio[1] = "Neon"
 print(jalokaasut_kopio[1])
 print(jalokaasut[1])
 ```
-Listojen kanssa yksinkertainen sijoitus *jalokaasut2 = jalokaasut* ei enää toimikaan samalla tavalla kuin yksinkertaisten
+Listojen kanssa yksinkertainen sijoitus `jalokaasut2 = jalokaasut` ei enää toimikaan samalla tavalla kuin yksinkertaisten
 tietotyyppien (kuten int) kanssa. Komennon jälkeen lista *jalokaasut2* **viittaa** alkuperäiseen listaan *jalokaasut* ja
 listan *jalokaasut2* muokkaaminen muokkaa myös alkuperäistä listaa *jalokaasut*:
 ```{code-cell} ipython3
