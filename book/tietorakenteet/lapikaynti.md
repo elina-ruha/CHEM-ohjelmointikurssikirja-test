@@ -27,7 +27,7 @@ print(round(paineet_atm[0] * ATM_TO_BAR, 3))
 print(round(paineet_atm[1] * ATM_TO_BAR, 3))
 print(round(paineet_atm[2] * ATM_TO_BAR, 3))
 ```
-Luonnollisin tapa listojen läpikäyntiin on *for*-silmukka (johon tutustuimme [1. kierroksella](../Kierros1/s1_11.md)). 
+Luonnollisin tapa listojen läpikäyntiin on *for*-silmukka (johon tutustuimme [aikaisemmin](../perusteet/for-range.md)). 
 Listojen kanssa pääsemme toden teolla hyödyntämään *for*-silmukoita. 
 ### Esimerkki 1
 ```{code-cell} ipython3
@@ -135,8 +135,7 @@ ainemaarat = [0.4, 0.6, 0.8]    # mol
 tilavuudet = [0.25, 0.25, 0.25] # l
 print(list(zip(ainemaarat, tilavuudet)))
 ```
-Tulostuksena saadaan kolmen alkion lista, jossa jokainen alkio on kahden alkion [monikko](../Kierros3/s3_5.md) (lista, 
-jota ei voi muokata). *zip*-funktio on erittäin kätevä tapa yhdistää listoja *for*-silmukkaa varten.
+Tulostuksena saadaan kolmen alkion lista, jossa jokainen alkio on kahden alkion [monikko](../tietorakenteet/monikot.md) (lista, jota ei voi muokata). *zip*-funktio on erittäin kätevä tapa yhdistää listoja *for*-silmukkaa varten.
 ## *enumerate*-funktio
 *enumerate*-funktio on myös usein avuksi listojen läpikäymisessä. Se palauttaa kullekin listan alkiolle sekä sen indeksin
 että alkion arvon:
@@ -199,7 +198,7 @@ paineet = [ n * R * T / tilavuus for tilavuus in tilavuudet ]
 print("tilavuudet:", tilavuudet)
 print("paineet:", paineet)
 ```
-### Tehtävä 3.4.1
+### Tehtävä
 Täydennä koodi vaihtoehdoilla: `tilavuudet`, `ainemaarat`, `len`, `konsentraatiot`, `tilavuus`, `zip`, `range`, `ainemaara`,
 `konsentraatiot`.
 ```{code-cell} ipython3
