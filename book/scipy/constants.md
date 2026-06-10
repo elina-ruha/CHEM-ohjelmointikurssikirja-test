@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.2 scipy.constants
+# scipy.constants
 Moduuli *scipy.constants* sisältää [luonnonvakioita](https://docs.scipy.org/doc/scipy/reference/constants.html), joista 
 yleisimmät voi ottaa käyttöön suoraan tuomalla pelkän *scipy.constants*-moduulin ohjelmaan:
 ```{code-cell} ipython3
