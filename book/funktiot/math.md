@@ -9,12 +9,12 @@ kernelspec:
   language: python
   name: python3
 ---
-# Matemaattiset funktiot (math)
+# Matemaattiset funktiot (*math*)
 Pythonin **math**-niminen *moduuli* sisältää suuren määrän erilaisia matemaattisia funktioita ja vakioita. Moduulien
-luomisesta ja käyttämisestä kerrotaan lisää [seuraavassa luvussa](../Kierros2/s2_5.md), mutta ennen kuin sukellamme
-syvemmälle moduulien maailmaan, otetaan math-moduulin sisältämät matemaattiset funktiot käyttöön.
+luomisesta ja käyttämisestä kerrotaan lisää [seuraavassa alaluvussa](funktiot/moduulit.md), mutta ennen kuin sukellamme
+syvemmälle moduulien maailmaan, otetaan *math*-moduulin sisältämät matemaattiset funktiot käyttöön.
 
-math-moduuli tuodaan ensin oman ohjelman käyttöön lisäämällä ohjelman alkuun **import**-käsky:
+*math*-moduuli tuodaan ensin oman ohjelman käyttöön lisäämällä ohjelman alkuun **import**-käsky:
 ``` ipython3
 import math
 ```
@@ -88,7 +88,7 @@ if math.isclose(luku1, luku2, rel_tol = 0.01):
 if math.isclose(luku1, luku2, abs_tol = 0.01):
     print("Luvut ovat samat 0.01 absoluuttisella tarkkuudella")
 ```
-Toinen esimerkki, missä rel_tol ja abs_tol johtavat eri lopputulokseen:
+Toinen esimerkki, missä `rel_tol` ja `abs_tol` johtavat eri lopputulokseen:
 ```{code-cell} ipython3
 import math
 luku1 = 2000.0
@@ -104,7 +104,7 @@ if not math.isclose(luku1, luku2, abs_tol = 0.01):
 Valinta *rel_tol* ja *abs_tol* -parametrien välillä riippuu vertailun luonteesta. Jos esimerkiksi vertaillaan
 mittaustuloksia ja tiedetään vain mittausmenetelmän suhteellinen virhe, tulee käyttää suhteellista *rel_tol*-vertailua.
 :::
-### Tehtävä 2.4.1
+### Tehtävä
 Täydennä alla oleva koodi vaihtoehdoilla: `exp`, `import`, `cos`, `ceil`, `sin`, `pow`, `floor`, `math`, `pow`.
 ```{code-cell} ipython3
 TÄYDENNÄ math
