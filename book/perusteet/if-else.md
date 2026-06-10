@@ -83,7 +83,7 @@ Se on kuitenkin enintään 1000
 ```
 :::{admonition} Vinkki
 :class: tip
-Ensimmäinen ehto "luku >= 0" siis toteutui, mutta ensimmäisen ehtolauseen sisällä oleva ehto "luku > 0" ei toteutunut.
+Ensimmäinen ehto `luku >= 0` siis toteutui, mutta ensimmäisen ehtolauseen sisällä oleva ehto `luku > 0` ei toteutunut.
 :::
 ## if-elif-else
 Ehtolauseeseen voi myös lisätä mielivaltaisen määrän lisäehtoja elif-käskyllä:
@@ -108,13 +108,13 @@ if kuukausi == "joulukuu":
 elif kuukausi == "elokuu":
     print("Vielä on kesää jäljellä")
 ```
-## Lisätietoja: Liukulukujen yhtäsuuruuden vertailu
+## Lisätietoja: liukulukujen yhtäsuuruuden vertailu
 :::{admonition} Huom!
 :class: note
 Liukulukujen yhtäsuuruuden vertailun kanssa pitää olla tarkkana! Yhtäsuuruuden vertailu on parasta tehdä
-*math.isclose*-funktiolla. Palaamme tähän asiaan [2. kierroksen oppimateriaalissa](../Kierros2/s2_4.md).
+*math.isclose*-funktiolla. Palaamme tähän asiaan [luvussa *Funktiot ja moduulit*](../funktiot/math.md).
 :::
-### Tehtävä 1.6.1
+### Tehtävä
 Täydennä if-elif-else -lause vetämällä samat oikeille paikoilleen. Vaithoehtoja tyhjiin kohtiin: `elif`, `if`, `elif`, `else`.
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
@@ -128,7 +128,7 @@ TÄYDENNÄ paine <= 7.0:
 TÄYDENNÄ:
   print("Rengas räjähti")
 ```
-:::::{card} Tehtävä 1.6.2
+:::::{card} Tehtävä
 Tehtäviin liittyvä ohjelma:
 ``` ipython3
 konsentraatio = float(input("Anna konsentraatio (mol):\n"))
