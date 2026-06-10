@@ -14,7 +14,7 @@ Suuremmat ohjelmakokonaisuudet on aina parasta jakaa *moduuleiksi*. Moduulien av
 hallinnassa ja moduuleja voi käyttää helposti uudelleen toisissa ohjelmissa.
 
 Käytetään esimerkkinä moduulia *ideaalikaasu*, joka käytännössä olisi siis alla oleva koodi tallennettuna tiedostoon
-[*ideaalikaasu.py*](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/ed67a939c9c9343f164369682b1f8e55c896991d/book/Kierros2/ideaalikaasu.py):
+[*ideaalikaasu.py*](../funktiot/ideaalikaasu.py):
 ```
 # Moduuli ideaalikaasu:
 # Apufunktioita ideaalikaasulle
@@ -37,10 +37,8 @@ def ratkaise_ainemaara(p, V, T):
 def ratkaise_lampotila(p, V, n):
     return p * V / (n * R)
 ```
-Luodaan moduulin [*ideaalikaasu.py*](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/ed67a939c9c9343f164369682b1f8e55c896991d/book/Kierros2/ideaalikaasu.py) 
-kanssa samaan hakemistoon tiedosto 
-[*testi.py*](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/dcf891c66b2898bfc073b9ef158c9a94e2a0b277/book/Kierros2/testi.py),
- jossa hyödynnämme *ideaalikaasu*-moduulia **import**-avainsanan avulla:
+Luodaan moduulin [*ideaalikaasu.py*](../funktiot/ideaalikaasu.py) kanssa samaan hakemistoon tiedosto 
+[*testi.py*](../funktiot/testi.py), jossa hyödynnämme *ideaalikaasu*-moduulia **import**-avainsanan avulla:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
 # Tuodaan koko ideaalikaasu-moduuli ohjelman testi.py käyttöön
@@ -49,8 +47,7 @@ import ideaalikaasu
 p = ideaalikaasu.ratkaise_paine(0.002, 0.01, 300) # Parametrit V, n, T
 print(f"Paine: {p:.3f} Pa")
 ```
-Toinen tapa on tuoda *ideaalikaasu*-moduulista vain tietyt funktiot ja muuttujat 
-[*testi.py*](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/dcf891c66b2898bfc073b9ef158c9a94e2a0b277/book/Kierros2/testi.py)-ohjelman
+Toinen tapa on tuoda *ideaalikaasu*-moduulista vain tietyt funktiot ja muuttujat [*testi.py*](../funktiot/testi.py)-ohjelman
 käyttöön. Tähän käytetään käskyä **from** MODUULI **import** FUNKTIOT
 ```{code-cell} ipython3
 # Tuodaan tietyt funktiot (ja/tai muuttujat) ohjelman testi.py käyttöön
@@ -72,7 +69,7 @@ import ideaalikaasu as ik
 p = ik.ratkaise_paine(0.002, 0.01, 300) # Parametrit V, n, T
 print(p)
 ```
-:::::{card} Tehtävä 2.5.1
+:::::{card} Tehtävä
 Täydennetään puutuvat kohdat koodista rivi riviltä niin, että 
   1) ohjelmaan tuodaan moduuli *hiilivety* ja käytetään sieltä funktiota *laske_CO2*
   2) phjelmaan tuodaan funktio *kysy_suure* moduulista *apufunktiot* ja käytetään kyseistä funktiota.
