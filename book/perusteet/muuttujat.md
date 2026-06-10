@@ -25,7 +25,7 @@ Tavallisia muuttujatyyppejä Pythonissa ovat:
 | Kompleksiluku | **complex** | 2.0 + 3.0j | Emme käytä tällä kurssilla |
 | Totuusarvo | **bool** | True tai False | Englannin kielen sanasta Boolean |
 
-Muuttujiin voidaan sijoittaa arvoja "="-merkin avulla. Muutama esimerkki muuttujien käytöstä:
+Muuttujiin voidaan sijoittaa arvoja `=`-merkin avulla. Muutama esimerkki muuttujien käytöstä:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
 iso_luku = 50000005
@@ -69,7 +69,7 @@ Pythonissa voi käyttää myös tieteellistä merkintätapaa, missä **2e5** tar
 tosi_pieni = 0.0000002
 print("Luku on:", tosi_pieni)
 ```
-:::::{card} Tehtävä 1.2.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
