@@ -21,7 +21,7 @@ lista = [[10, 20, 30], [1, 2, 3]]
 print(lista[0][0])
 print(lista[1][2])
 ```
-Eli merkinnässä *lista[1][2]* ensimmäinen indeksi [1] viittaa ulomman listan toiseen alkioon [1, 2, 3] (indeksointi alkaa
+Eli merkinnässä `lista[1][2]` ensimmäinen indeksi [1] viittaa ulomman listan toiseen alkioon [1, 2, 3] (indeksointi alkaa
 nollasta!). Toinen indeksi [2] viittaa sisemmän listan kolmanteen alkioon (indeksointi alkaa nollasta!).
 
 Otetaan käytännöllisempi esimerkki. Kuvataan kemiallista yhdistettä listalla:
@@ -75,7 +75,7 @@ matriisi = [[2, 4],
 # Tulostetaan 1. rivin 2. alkio (indeksointi nollasta!)        
 print(matriisi[0][1])
 ```
-Käytännössä matriisilaskentaan käytetään kuitenkin *NumPy*-kirjaston *array*-tyyppiä, johon tutustutaan kierroksesta 4 lähtien.
+Käytännössä matriisilaskentaan käytetään kuitenkin *NumPy*-kirjaston *array*-tyyppiä, johon tutustutaan luvusta *NumPy ja Matplotlib* lähtien.
 ## Listat sanakirjojen sisällä
 Sanakirjan arvot voivat olla vaikka listoja:
 ```{code-cell} ipython3
@@ -96,7 +96,7 @@ tietokanta = {
 print("Etaanin tiheys on:", tietokanta["C2H6"]["tiheys"], "g/cm^3")
 print("Ruokasuolan moolimassa on:", tietokanta["NaCl"]["moolimassa"], "g/mol")
 ```
-:::::{card} Tehtävä 3.7.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
