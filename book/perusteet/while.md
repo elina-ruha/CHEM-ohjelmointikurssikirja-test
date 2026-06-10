@@ -150,10 +150,10 @@ Lukujen tulo: 60
 ### continue- ja else-käskyt
 *while*-silmukoissa voi lisäksi hyödyntää **continue**-komentoa (hyppää silmukan alkuun) ja **else-lausetta** (suoritetaan
 silmukan päätyttyä). Näitä emme hyödynnä vielä tässä vaiheessa kurssia.
-### Tehtävä 1.10.1
+### Tehtävä
 Täydennä alla oleva ohjelma niin, että se tekee enintään kymmenen mittausta ja lopettaa arvojen kysymisen, jos mittauksien
 summa ylittää 100 g. Tehtävässä käyttäjä antaa jokaisella kerralla massaksi 3.6583 g (joka on tallennettu jo etukäteen 
-muuttujaan *massa* input-funktion tilalle).
+muuttujaan *massa* *input*-funktion tilalle).
 ``` ipython3
 mittaukset = 0
 summa = 0
