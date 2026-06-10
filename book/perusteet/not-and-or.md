@@ -31,8 +31,8 @@ if not (alkuaine == "Au"):
     print("Et taida olla alkemisti")
 ```
 ## and-operaattori
-**and**-operaattorilla voi yhdistää kaksi totuusmuuttujaa (tai ehtolauseen ehtoa). and-lauseen arvo on True, jos
-molempien ehtojen arvo on True:
+**and**-operaattorilla voi yhdistää kaksi totuusmuuttujaa (tai ehtolauseen ehtoa). and-lauseen arvo on `True`, jos
+molempien ehtojen arvo on `True`:
 ``` ipython3
 if alkuaine1 == "Cu" and alkuaine2 == "O":
     print("Kuparioksidi")
@@ -42,8 +42,8 @@ if ylipaine and T > 410.0:
     print("Kriittiset olosuhteet!")
 ```
 ## or-operaattori
-**or**-operaattorilla voi myös yhdistää kaksi totuusmuuttujaa (tai ehtolauseen ehtoa). or-lauseen arvo on True, jos
-jommankumman ehdon arvo on True:
+**or**-operaattorilla voi myös yhdistää kaksi totuusmuuttujaa (tai ehtolauseen ehtoa). or-lauseen arvo on `True`, jos
+jommankumman ehdon arvo on `True`:
 ``` ipython3
 if kaasu == "He" or kaasu == "Ne":
     print("Jalokaasu")
@@ -63,7 +63,7 @@ Monimutkaisemmat ehdot on parasta ryhmitellä sulkujen avulla:
 if massa > 200.0 or (tiheys > 22.59 and tilavuus > 10.0):
     print("Kappale on liian painava")
 ```
-## Syventävää tietoa: Lyhennetty tapa kirjoittaa vertailuja:
+## Syventävää tietoa: lyhennetty tapa kirjoittaa vertailuja:
 Pythonissa voi myös yhdistää eri muuttujien vertailuja tavalla, joka on tuttu matematiikasta. Vertailulauseke
 ``` ipython3
 if 10 < luku and luku < 1000:
@@ -77,7 +77,7 @@ if 10 < luku < 1000:
 Jälkimmäinen versio siis "piilottaa" **and**-operaattorin. Lisätietoja aiheesta 
 [Pythonin virallisesta dokumentaatiossa](https://docs.python.org/3/reference/expressions.html#comparisons).
 :::
-:::::{card} Tehtävä 1.8.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
