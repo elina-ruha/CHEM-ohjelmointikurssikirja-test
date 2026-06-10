@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 5.4 Virhetilanteiden käsittely (try-except-finally)
+# Virhetilanteiden käsittely (try-except-finally)
 ## Poikkeukset
 Hyvässä ohjelmakoodissa varaudutaan aina erilaisiin virhetilanteisiin, kuten
 - käyttäjän antama virheellinen syöte
