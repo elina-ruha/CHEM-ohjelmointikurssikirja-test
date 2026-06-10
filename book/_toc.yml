@@ -23,6 +23,7 @@ parts:
       - file: perusteet/laskujarjestys.md
       - file: perusteet/while.md
       - file: perusteet/for-range.md
+      - file: perusteet/perusteet-kert.md
     - file: funktiot/funktiot-intro.md
       sections:
       - file: funktiot/funktiot.md
