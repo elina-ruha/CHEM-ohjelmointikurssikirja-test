@@ -22,7 +22,7 @@ tilavuus = float(input("Anna tilavuus:\n"))
 Yllä float-funktio tekee siis tyyppimuunnoksen merkkijonosta liukuluvuksi.
 
 Pythonissa on useita sisäänrakennettuja funktioita ja erilaiset ohjelmakirjastot sisältävät lukuisia funktioita eri
-käyttötarkoituksiin. Tällä kierroksella opit kirjoittamaan omia funktioita. Niiden avulla toistuvien tehtävien suorittaminen
+käyttötarkoituksiin. Tässä luvussa opit kirjoittamaan omia funktioita. Niiden avulla toistuvien tehtävien suorittaminen
 helpottuu ja koodin rakenne pysyy selkeämpänä.
 ## Funktioiden määritteleminen, parametrit ja paluuarvot
 Funktiolla on tavallisesti joku selkeä tehtävä, esimerkiksi tietty laskutoimitus. Funktioita kutsutaan joskus myös *aliohjelmiksi*.
@@ -157,14 +157,14 @@ print("Ainemäärä on", round(n,2), "mol")
 - Jos koodiin täytyisi tehdä joku muutos, esimerkiksi vaihtaa virheilmoitus "Virheellinen arvo" joksikin muuksi,
    ensimmäisessä *kysy_suure*-funktiota käytettäessä riittää funktion *kysy_suure* päivittäminen, eikä muutosta
   tarvitse tehdä moneen paikkaan.
-### Tehtävä 2.1.1
+### Tehtävä
 Täytä aukkopaikat niin, että funktio *kaiku* toimii määritelmän mukaisesti.
 ```{code-cell} ipython3
 TÄYDENNÄ kaiku(huuto):
   # Palauttaa parametrin huuto kolme kertaa toistettuna, välilyönnillä erotettuina
   TÄYDENNÄ huuto + "" + TÄYDENNÄ + "" + huuto
 ```
-:::::{card} Tehtävä 2.1.2
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
