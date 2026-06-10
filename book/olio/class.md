@@ -9,14 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# Kierros 6: Olio-ohjelmointi
-Aiemmin tällä kurssilla olemme tutustuneet erilaisiin **tietorakenteisiin** kuten listat, sanakirjat ja NumPy-taulukot.
-Olemme myös tutustuneet **funktioihin**, joilla näitä tietorakenteita voi käsitellä. Esimerkkinä vaikkapa *max(lista)*,
-joka palauttaa listan suurimman alkion.
-
-Tutustutaan nyt lyhyesti **olioihin** (engl. *object*). Voimme ajatella olioita tietorakenteina, jotka sisältävät myös
-tietojen käsittelyyn tarkoitettuja funktioita.
-## Luokan määritteleminen ja olioiden luominen
+# Luokan määritteleminen ja olioiden luominen
 Jotta voimme luoda uuden olion, meidän pitää ensin määritellä **luokka** (engl. *class*) joka kuvaa olion ominaisuudet.
 Määritellään luokka *Molekyyli* (luokkien nimet kirjoitetaan isolla alkukirjaimella):
 ``` ipython3
