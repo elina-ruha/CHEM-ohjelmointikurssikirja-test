@@ -11,7 +11,7 @@ kernelspec:
 ---
 # Matemaattiset funktiot (*math*)
 Pythonin **math**-niminen *moduuli* sisältää suuren määrän erilaisia matemaattisia funktioita ja vakioita. Moduulien
-luomisesta ja käyttämisestä kerrotaan lisää [seuraavassa alaluvussa](funktiot/moduulit.md), mutta ennen kuin sukellamme
+luomisesta ja käyttämisestä kerrotaan lisää [seuraavassa alaluvussa](../funktiot/moduulit.md), mutta ennen kuin sukellamme
 syvemmälle moduulien maailmaan, otetaan *math*-moduulin sisältämät matemaattiset funktiot käyttöön.
 
 *math*-moduuli tuodaan ensin oman ohjelman käyttöön lisäämällä ohjelman alkuun **import**-käsky:
