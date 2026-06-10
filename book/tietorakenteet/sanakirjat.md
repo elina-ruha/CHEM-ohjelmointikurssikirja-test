@@ -64,8 +64,8 @@ Anna atomipaino
 > 30.973
 Atomipainot: {'H': 1.008, 'C': 12.011, 'O': 15.999, 'P': 30.973}
 ```
-Kurssin aikana käytämme lukuisia kertoja merkintää *sanakirja[muuttuja]* = *arvo*, kun haluamme lisätä
-*avain:arvo*-pareja sanakirjaan.
+Kurssin aikana käytämme lukuisia kertoja merkintää `sanakirja[muuttuja] = arvo`, kun haluamme lisätä
+**avain:arvo**-pareja sanakirjaan.
 ## Arvon poimiminen sanakirjasta muuttujan avulla
 Arvoja voi poimia sanakirjasta myös käyttämällä avaimena olemassa olevan muuttujan sisältöä:
 ``` ipython3
@@ -81,7 +81,7 @@ Anna alkuainesymboli, niin tulostan atomipainon:
 > C
 12.011
 ```
-Kurssin aikana käytämme lukuisia kertoja merkintää *arvo = sanakirja[muuttuja]*, kun haluamme poimia tietyn arvon sanakirjasta.
+Kurssin aikana käytämme lukuisia kertoja merkintää `arvo = sanakirja[muuttuja]`, kun haluamme poimia tietyn arvon sanakirjasta.
 ## Arvojen poistaminen sanakirjasta
 Arvojen poistaminen sanakirjasta onnistuu *del*-avainsanalla:
 ```{code-cell} ipython3
@@ -119,7 +119,7 @@ print(sorted(atomipainot.values()))
 Huomaa kuitenkin, että alkuperäisen sanakirjan (*atomipainot*) järjestys ei muutu, vaikka kutsuisit *sorted*-funktiota.
 :::{admonition} Huom!
 :class: note
-Ennen Pythonin versiota 3.6, sanakirjan avain:arvo parit olivat satunnaisessa järjestyksessä. Versiosta 3.6 eteenpäin
+Ennen Pythonin versiota 3.6, sanakirjan **avain:arvo** parit olivat satunnaisessa järjestyksessä. Versiosta 3.6 eteenpäin
 ne ovat siinä järjestyksessä, missä ne on lisätty sanakirjaan.
 :::
 ## Listat sanakirjojen sisällä
@@ -133,7 +133,7 @@ yhdisteet = {"C2H6": ["C",  2,  "H", 6],
 print(yhdisteet["C2H6"])
 print("Yhdisteessa C2H6 on", yhdisteet["C2H6"][3], "vetyatomia")
 ```
-### Tehtävä 3.6.1
+### Tehtävä
 Täydennä alla oleva koodi ohjeiden mukaisesti
 ```{code-cell} ipython3
 # Määrittele sanakirja moolimassat, jossa on avaimet XeF2, XeF4 ja XeF6
