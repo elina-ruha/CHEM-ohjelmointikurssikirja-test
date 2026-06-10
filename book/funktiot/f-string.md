@@ -27,7 +27,7 @@ atomipaino = 12.011
 # Huomaa, miten print-lausekkeen sisällä oleva merkkijono alkaa f-kirjaimella ennen lainausmerkkiä
 print(f"Alkuaineen {alkuaine} atomipaino on {atomipaino}")
 ```
-f-merkkijonoja käytettäessä muuttujat voidaan siis upottaa merkkijonon sisään {muuttuja}-merkinnällä. 
+f-merkkijonoja käytettäessä muuttujat voidaan siis upottaa merkkijonon sisään `{muuttuja}`-merkinnällä. 
 ## *str.format*-funktio
 Ennen f-merkkijonoja muotoiltuun tulostamiseen käytettiin *str.format*-funktiota:
 ```{code-cell} ipython3
@@ -79,7 +79,7 @@ f-merkkijonojen laajempi dokumentaatio löytyy osoitteista
 <https://docs.python.org/3/reference/lexical_analysis.html#f-strings> ja 
 <https://docs.python.org/3/library/string.html#format-specification-mini-language>.
 
-:::::{card} Tehtävä 2.3.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
