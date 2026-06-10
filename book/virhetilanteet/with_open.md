@@ -9,9 +9,9 @@ kernelspec:
   language: python
   name: python3
 ---
-# 5.5 Tiedostojen avaaminen with-lausekkeella
+# Tiedostojen avaaminen with-lausekkeella
 Pythonissa on kätevä **with**-lauseke, joka kutsuu automaattisesti *close*-funktiota kun tiedoston käyttö lopetetaan.
-Luetaan tiedosto [moolimassat.txt](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/ceb21414ab6b9a49708c1702add54abbffb807b6/book/Kierros5/moolimassat.txt)
+Luetaan tiedosto [moolimassat.txt](../virhetilanteet/moolimassat.txt)
 käyttäen **with**-lauseketta:
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
