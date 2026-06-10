@@ -12,55 +12,56 @@ parts:
     - file: johdanto.md
     - file: perusteet/intro.md
       sections:
-      - file: perusteet/print_input.md
+      - file: perusteet/print-input.md
       - file: perusteet/muuttujat.md
-      - file: perusteet/arit_operaatiot.md
+      - file: perusteet/arit-operaatiot.md
       - file: perusteet/tyyppimuunnos.md
       - file: perusteet/round.md
-      - file: perusteet/if_else.md
+      - file: perusteet/if-else.md
       - file: perusteet/bool.md
-      - file: perusteet/not_and_or.md
+      - file: perusteet/not-and-or.md
       - file: perusteet/laskujarjestys.md
       - file: perusteet/while.md
-      - file: perusteet/for_range.md
-    - file: funktiot/funktiot_intro.md
+      - file: perusteet/for-range.md
+    - file: funktiot/funktiot-intro.md
       sections:
       - file: funktiot/funktiot.md
-      - file: funktiot/erilaiset_funktiot.md
-      - file: funktiot/f_string.md
+      - file: funktiot/erilaiset-funktiot.md
+      - file: funktiot/f-string.md
       - file: funktiot/math.md
       - file: funktiot/moduulit.md
       - file: funktiot/nakyvyys.md
       - file: funktiot/vakiot.md
-    - file: tietorakenteet/tietorakenteet_intro.md
+    - file: tietorakenteet/tietorakenteet-intro.md
       sections:
       - file: tietorakenteet/tietorakenteet.md
       - file: tietorakenteet/listat.md
-      - file: tietorakenteet/listan_kasittely.md
+      - file: tietorakenteet/listan-kasittely.md
       - file: tietorakenteet/lapikaynti.md
       - file: tietorakenteet/monikot.md
       - file: tietorakenteet/sanakirjat.md
       - file: tietorakenteet/sisakkaiset.md
-      - file: tietorakenteet/str_listana.md
+      - file: tietorakenteet/str-listana.md
     - file: numpy/numpy_intro.md
       sections:
       - file: numpy/numpykirjasto.md
       - file: numpy/nparray.md
       - file: numpy/siivuttaminen.md
-      - file: numpy/numpy_laskut.md
-      - file: numpy/np_math.md
+      - file: numpy/numpy-laskut.md
+      - file: numpy/np-math.md
       - file: numpy/matplotlib.md
       - file: numpy/pyplot.md
       - file: numpy/maaritelmia.md
       - file: numpy/polynomit.md
-    - file: tiedosto/tiedosto_intro.md
+    - file: tiedosto/tiedosto-intro.md
       sections:
-      - file: tiedosto/open_close.md
-      - file: tiedosto/write_split.md
-      - file: tiedosto/loadtxt_savetxt.md
-    - file: virhetilanteet/virhetilanteet_intro.md
-      - file: virhetilanteet/try_except.md
-      - file: virhetilanteet/with_open.md
+      - file: tiedosto/open-close.md
+      - file: tiedosto/write-split.md
+      - file: tiedosto/loadtxt-savetxt.md
+    - file: virhetilanteet/virhetilanteet-intro.md
+      sections:
+      - file: virhetilanteet/try-except.md
+      - file: virhetilanteet/with-open.md
     - file: Kierros6_scipy/Kierros_6_intro.md
       sections:
       - file: Kierros6_scipy/s6_1.md
