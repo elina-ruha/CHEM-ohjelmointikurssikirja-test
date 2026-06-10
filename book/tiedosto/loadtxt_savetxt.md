@@ -9,11 +9,11 @@ kernelspec:
   language: python
   name: python3
 ---
-# 5.3 Tiedostojen helppo käsittely NumPy:llä
+# Tiedostojen helppo käsittely NumPy:llä
 NumPy-kirjasto sisältää käteviä funktioita [tiedostojen käsittelyyn](https://docs.scipy.org/doc/numpy/reference/routines.io.html).
 Nämä ovat hyödyllisiä etenkin numeerista dataa luettaessa. Tekstitiedostoja voi lukea ja kirjoittaa
 [*numpy.loadtxt*](https://docs.scipy.org/doc/numpy/reference/generated/numpy.loadtxt.html)- ja [*numpy.savetxt*](https://docs.scipy.org/doc/numpy/reference/generated/numpy.savetxt.html)-funktioilla.
-Tarkastellaan esimerkkiä, jossa meillä on tilavuus- ja painedataa tiedostossa [painedata.txt](https://mycourses.aalto.fi/pluginfile.php/2654701/mod_book/chapter/18939/painedata.txt)
+Tarkastellaan esimerkkiä, jossa meillä on tilavuus- ja painedataa tiedostossa [painedata.txt](../tiedosto/painedata.txt)
 seuraavassa muodossa (kommenttirivi ja kolme ensimmäistä datariviä näkyvissä):
 ``` ipython3
 # V (dm^3)    p (Pa)
