@@ -65,7 +65,7 @@ n /= 2
 ```
 On puhdas makuasia, kumpaa muotoa haluaa käyttää, pitkää vai lyhyttä. Pitkä on aloittelijalle selkeämpi valinta. 
 
-:::::{card} Tehtävä 1.3.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
