@@ -34,7 +34,7 @@ laskutoimitusta laskevat oikeasti kokonais- ja liukuluvuilla. Merkkijonon muunta
 luku = int(input("Anna luku niin kerron sen kahdella\n"))
 print("Antamasi luku", luku, "kerrottuna kahdella on", 2 * luku)
 ```
-Lopputulos (Muista, että ">"-merkki tarkoittaa käyttäjän *input*-funktiolle antamaa syötettä):
+Lopputulos (muista, että ">"-merkki tarkoittaa käyttäjän *input*-funktiolle antamaa syötettä):
 ```
 Anna luku niin kerron sen kahdella
 > 3
@@ -59,7 +59,7 @@ mjono1 = str(5)
 mjono2 = str(6.5)
 print("Merkkijonojen mjono1 ja mjono2 yhdistelmä:", mjono1 + mjono2)
 ```
-### Tehtävä 1.4.1
+### Tehtävä
 Täytä aukkopaikat niin, että tyyppimuunnokset ovat oikein.
 ```{code-cell} ipython3
 # Merkkijono kokonaisluvuksi

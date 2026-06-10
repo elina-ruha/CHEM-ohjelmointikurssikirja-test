@@ -37,7 +37,7 @@ if ylipaine == True:
 ```
 Tämä johtuu siitä, että if-ehtolauseen testin arvo on aina True tai False, joten totuusmuuttujan voi laittaa
 suoraan ehtolauseen testiksi.
-### Tehtävä 1.7.1
+### Tehtävä
 Täydennä koodi niin, että if-ehtolause on kemiallisesti mielekäs. Vaihtoehtoja tyhjiin kohtiin: `True`, `False`, `True`. 
 Voit kokeilla eri kemiallisia kaavoja muuttujaan *yhdiste*.
 ```{code-cell} ipython3

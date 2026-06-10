@@ -89,7 +89,7 @@ Oppaassa olevien tehtävien tarkoitus on tukea oppimista, ne eivät vaikuta kurs
 
 Alla on kaksi esimerkkiä oppimateriaalin tehtävätyypeistä.
 
-:::::{card} Tehtävä 1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
@@ -121,7 +121,7 @@ Minkä perusteella kurssin arvosana määräytyy?
 ---
 ::::
 :::::
-### Tehtävä 2
+### Tehtävä
 Täydennä koodi niin, että ohjelma tulostaa:
 ```
 Yksi

@@ -50,16 +50,14 @@ Liukulukuja voi myös pyöristää haluttuun tarkkuuteen. *round*-funktion toine
 print(round(5.666, 1))
 print(round(5.666, 2))
 ```
-*round*-funktiota voi siis hyödyntää, kun ilmoitamme liukulukulaskujen tuloksia käyttäjälle. Kierroksen 2 materiaalissa
-tutustumme muotoiltujen merkkijonojen tulostamiseen f-merkkijonoilla tai *str.format*-funktiolla. Niiden avulla
-liukulukujen pyöristäminen tulostamista varten on hyvin helppoa.
+*round*-funktiota voi siis hyödyntää, kun ilmoitamme liukulukulaskujen tuloksia käyttäjälle. Oppimateriaalin luvussa *Funktiot ja moduulit* tutustumme muotoiltujen merkkijonojen tulostamiseen f-merkkijonoilla tai *str.format*-funktiolla. Niiden avulla liukulukujen pyöristäminen tulostamista varten on hyvin helppoa.
 :::{admonition} Huom!
 :class: caution
 Älä koskaan pyöristä liukulukuja laskutoimitusten aikana! Liukuluvuilla työskennellään aina mahdollisimman suurella
 tarkkuudella ja ainoastaan käyttäjälle ilmoitettava luku pyöristetään johonkin ihmissilmälle sopivampaan tarkkuuteen. 
 Ilmoitustarkkuuteen pätevät tässä samat säännöt kuin normaalistikin, eli tuloksen ilmoitustarkkuus riippuu esim. lähtöarvojen tarkkuudesta.
 :::
-## Lisätietoa: Kokonaislukujen pyöristäminen *round*-funktiolla
+## Lisätietoa: kokonaislukujen pyöristäminen *round*-funktiolla
 *round*-funktiolla on myös vähemmän tunnettu ominaisuus, jonka avulla voi helposti pyöristää lukuja haluttuun ilmoitustarkkuuteen
 myös desimaalipisteen vasemmalta puolen. Tätä ominaisuutta tarvitaan usein luonnontieteissä, kun mittaustarkkuus rajoittaa
 vastauksen tarkkuutta. Tällöin funktion toinen parametri annetaan negatiivisena:
@@ -74,7 +72,7 @@ Tässä esimerkissä pyöristettiin siis kokonaislukuja haluttuun tarkkuuteen. E
 tarkoittaa sekä positiivisten että negatiivisten lukujen kohdalla "pyöristä tarkkuuteen 10{sup}`-ndigits`".
 :::
 
-:::::{card} Tehtävä 1.5.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
