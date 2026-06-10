@@ -79,12 +79,12 @@ parts:
       - file: olio/str.md
   - caption: Lisämateriaali
     chapters:
-    - file: lisamateriaali/spyder_asennus.md
-    - file: lisamateriaali/spyder_kaytto.md
+    - file: lisamateriaali/spyder-asennus.md
+    - file: lisamateriaali/spyder-kaytto.md
     - file: lisamateriaali/coderunner.md
     - file: lisamateriaali/virheet.md
-    - file: lisamateriaali/main_funktio.md
-    - file: lisamateriaali/verkko_mat.md
+    - file: lisamateriaali/main-funktio.md
+    - file: lisamateriaali/verkko-mat.md
     - file: lisamateriaali/anaconda.md
   - caption: Muuta
     chapters:
