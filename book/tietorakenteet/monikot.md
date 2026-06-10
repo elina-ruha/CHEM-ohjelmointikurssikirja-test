@@ -26,7 +26,7 @@ del jalokaasut[0]
     # TypeError: 'tuple' object doesn't support item deletion
 ```
 Törmäämme monikkoihin lähinnä tilanteissa, joissa Python käyttää sisäisesti monikkoa tyyppinä. Esimerkiksi
-[edellisessä kappaleessa](../Kierros3/s3_4.md) esitelty *zip*-funktio tuottaa monikoita:
+[edellisessä kappaleessa](../tietorakenteet/lapikaynti.md) esitelty *zip*-funktio tuottaa monikoita:
 ```{code-cell} ipython3
 alkuaineet = ['H', 'C', 'O']
 atomipainot = [1.008, 12.011, 15.999]
@@ -48,7 +48,7 @@ Saman asian voisi hoitaa silmukkamuuttujaa käyttävällä *for*-silmukalla, mut
 "luonnollisempi" tapa hoitaa asia Pythonissa.
 :::
 
-:::::{card} Tehtävä 3.5.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
