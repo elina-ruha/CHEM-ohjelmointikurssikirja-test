@@ -1,5 +1,5 @@
 # Kertaus
-Kerrataan tietorakenteita ennen kuin siirrytään lukuun *NumPy ja Matplotlib*
+Kerrataan tietorakenteita ennen kuin siirrytään lukuun *NumPy ja Matplotlib*.
 :::::{card}
 ::::{question}
 :type: multiple-choice
