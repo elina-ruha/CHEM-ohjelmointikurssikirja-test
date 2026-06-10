@@ -70,12 +70,13 @@ parts:
       - file: scipy/linalg.md
       - file: scipy/integrate.md
     - file: tekoaly/tekoaly-intro.md
-    - file: Kierros6_olio/Kierros_6_olio_intro.md
+    - file: olio/olio-intro.md
       sections:
-      - file: Kierros6_olio/s6_6.md
-      - file: Kierros6_olio/s6_7.md
-      - file: Kierros6_olio/s6_8.md
-      - file: Kierros6_olio/s6_9.md
+      - file: olio/class.md
+      - file: olio/kentat.md
+      - file: olio/sailominen.md
+      - file: olio/luokkamuuttujat.md
+      - file: olio/str.md
   - caption: Lisämateriaali
     chapters:
     - file: lisamateriaali/spyder_asennus.md
