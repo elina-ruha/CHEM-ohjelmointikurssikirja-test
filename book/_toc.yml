@@ -62,13 +62,14 @@ parts:
       sections:
       - file: virhetilanteet/try-except.md
       - file: virhetilanteet/with-open.md
-    - file: Kierros6_scipy/Kierros_6_intro.md
+    - file: scipy/scipy-intro.md
       sections:
-      - file: Kierros6_scipy/s6_1.md
-      - file: Kierros6_scipy/s6_2.md
-      - file: Kierros6_scipy/s6_3.md
-      - file: Kierros6_scipy/s6_4.md
-      - file: Kierros6_scipy/s6_5.md
+      - file: scipy/scipy.md
+      - file: scipy/constants.md
+      - file: scipy/stats.md
+      - file: scipy/linalg.md
+      - file: scipy/integrate.md
+    - file: tekoaly/tekoaly-intro.md
     - file: Kierros6_olio/Kierros_6_olio_intro.md
       sections:
       - file: Kierros6_olio/s6_6.md
