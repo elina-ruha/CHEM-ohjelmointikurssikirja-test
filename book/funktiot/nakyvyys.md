@@ -29,7 +29,7 @@ print(f"Paine (Pa) on: {paine:.0f}")
 ```
 :::{admonition} Huom!
 :class: attention
-Funkion lokaalien muuttujien arvot "unohtuvat" samalla hetkellä kun funktiosta poistutaan! Et siis voi tallentaa
+Funktion lokaalien muuttujien arvot "unohtuvat" samalla hetkellä kun funktiosta poistutaan! Et siis voi tallentaa
 lokaaleihin muuttujiin mitään pysyvää tietoa.
 :::
 ## Lisätietoa: globaalit muuttujat
@@ -37,7 +37,7 @@ Yleensä muuttujat kannattaa välittää funktiolle parametreina. Joskus voi sil
 *globaaleja muuttujia*. 
 
 Alla olevassa esimerkissä hyödynnetään globaalia muuttujaa *paine*. Myös ATM_TO_PA on kaikkien funktioiden käytössä, mutta
-se on vakio, ei muuttuja (isot kirjaimet viittaavat vakioon, jota ei tule muuttaa, ks. [seuraava luku](../Kierros2/s2_7.md)).
+se on vakio, ei muuttuja (isot kirjaimet viittaavat vakioon, jota ei tule muuttaa, ks. [seuraava luku](../funktiot/vakiot.md)).
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
 ATM_TO_PA = 101325 # Muuntokerroin atm -> Pa
@@ -97,7 +97,7 @@ raportoi_paine(paine)
 Globaalien muuttujien käyttäminen voi  olla perusteltua, jos se yksinkertaistaa koodia huomattavasti. *global*-avainsanan
 ajatus on, että ohjelmoijan pitää erikseen kertoa, jos hän haluaa muokata globaalia muuttujaa ja näin vältytään
 muokkaamasta globaalia muuttujaa vahingossa.
-:::::{card} Tehtävä 2.6.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
