@@ -1,6 +1,6 @@
 # Kertaus
-Kierroksen 2 pikakertaus ennen kierrosta 3.
-:::::{card} Tehtävä 2.8.1
+Kerrataan funktioita ja moduuleja ennen lukua *Tietorakenteet*.
+:::::{card}
 ::::{question}
 :type: multiple-choice
 :variant: single-select
