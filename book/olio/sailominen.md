@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.7 Olioiden säilöminen tietorakenteisiin
+# Olioiden säilöminen tietorakenteisiin
 Oliot ovat jo itsessään kätevä tapa tietojen säilömiseksi. Olioita voi edelleen säilöä myös muihin tietorakenteisiin 
 kuten listoihin tai sanakirjoihin.
 ## Oliot listoissa
