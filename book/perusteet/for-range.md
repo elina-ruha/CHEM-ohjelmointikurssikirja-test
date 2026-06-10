@@ -65,12 +65,12 @@ for luku1 in range(1, 6):
 ```
 :::{admonition} Huom!
 :class: tip
-Tulemme hyödyntämään *for*-silmukkaa huomattavan paljon enemmän kolmannesta kierroksesta eteenpäin, kun pääsemme
+Tulemme hyödyntämään *for*-silmukkaa huomattavan paljon enemmän luvusta *Tietorakenteet* eteenpäin, kun pääsemme
 käsittelemään Pythonin tietorakenteita kuten listoja ja sanakirjoja.
 :::
 ## *for*-silmukasta poistuminen break-käskyllä
 *for*-silmukassa toistojen määrä kerrotaan silmukan alussa ja silmukasta ei yleensä poistuta kesken suorituksen.
-*for*-silmukasta voi kuitenkin poistua **break**-käskyllä samaan tapaan kuin while-silmukasta:
+*for*-silmukasta voi kuitenkin poistua **break**-käskyllä samaan tapaan kuin *while*-silmukasta:
 ```{code-cell} ipython3
 maksimi = 11
 for luku in range(1, maksimi):
@@ -79,7 +79,7 @@ for luku in range(1, maksimi):
         print("En jaksa enempää")
         break
 ```
-:::::{card} Tehtävä 1.11.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
