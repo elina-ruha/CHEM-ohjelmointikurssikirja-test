@@ -10,7 +10,7 @@ kernelspec:
   name: python3
 ---
 # Erilaisia funktioita
-Tässä osiossa on useita esimerkkejä erilaisista funktiosta. Esimerkkejä on parasta havainnollistaa ajamalla koodi
+Tässä alaluvussa on useita esimerkkejä erilaisista funktiosta. Esimerkkejä on parasta havainnollistaa ajamalla koodi
 oppimateriaalissa tai kopioimalla koodin Spyderiin ja ajamalla siellä.
 ## 1. Funktiolla ei tarvitse välttämättä olla yhtään parametria:
 ```{code-cell} ipython3
@@ -148,7 +148,7 @@ Valinnaiset parametrit pitää aina määritellä vasta pakollisten parametrien 
 SyntaxError: non-default argument follows default argument
 ```
 :::
-:::::{card} Tehtävä 2.2.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
