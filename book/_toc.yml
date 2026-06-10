@@ -33,6 +33,7 @@ parts:
       - file: funktiot/moduulit.md
       - file: funktiot/nakyvyys.md
       - file: funktiot/vakiot.md
+      - file: funktiot/funktiot-kert.md
     - file: tietorakenteet/tietorakenteet-intro.md
       sections:
       - file: tietorakenteet/tietorakenteet.md
