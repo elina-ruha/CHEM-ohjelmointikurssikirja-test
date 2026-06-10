@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.9 Merkkijonometodi `__str__`
+# Merkkijonometodi `__str__`
 Viimeisenä olioesimerkkinä on luokka *Alkuaine*. Luokalla on käynnistysmetodin lisäksi kolme metodia *on_kiintea*, *on_neste*
 ja *on_kaasu*, joilla voi helposti tarkastella alkuaineen olomuotoa tietyssä lämpötilassa. Lisäksi luokalla on 
 merkkijonometodi `__str__`, jonka tarkoitus on palauttaa luokan oliota kuvaava merkkijono. Tämä merkkijono tulostuu esimerkiksi
