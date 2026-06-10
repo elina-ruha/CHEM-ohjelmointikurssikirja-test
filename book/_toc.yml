@@ -53,14 +53,14 @@ parts:
       - file: numpy/pyplot.md
       - file: numpy/maaritelmia.md
       - file: numpy/polynomit.md
-    - file: Kierros5/Kierros_5_intro.md
+    - file: tiedosto/tiedosto_intro.md
       sections:
-      - file: Kierros5/s5_1.md
-      - file: Kierros5/s5_2.md
-      - file: Kierros5/s5_3.md
-      - file: Kierros5/s5_4.md
-      - file: Kierros5/s5_5.md
-      - file: Kierros5/kertaus5.md
+      - file: tiedosto/open_close.md
+      - file: tiedosto/write_split.md
+      - file: tiedosto/loadtxt_savetxt.md
+    - file: virhetilanteet/virhetilanteet_intro.md
+      - file: virhetilanteet/try_except.md
+      - file: virhetilanteet/with_open.md
     - file: Kierros6_scipy/Kierros_6_intro.md
       sections:
       - file: Kierros6_scipy/s6_1.md
