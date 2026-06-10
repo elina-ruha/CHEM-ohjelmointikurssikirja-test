@@ -75,7 +75,7 @@ aallonpituudet = [532, 632, 588, 229, 1030, 601]
 print(min(aallonpituudet))
 print(max(aallonpituudet))
 ```
-### Tehtävä 3.3.1
+### Tehtävä
 Täydennä alla oleva koodi ohjeiden mukaisesti.
 ```{code-cell} ipython3
 yhdisteet = []
