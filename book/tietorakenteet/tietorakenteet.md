@@ -41,8 +41,8 @@ Joukot määritellään kaarisulkeilla, mutta toisin kuin sanakirjat, joukot koo
 ``` ipython3
 metallit = {'Cu', 'Ag', 'Cu', 'Ag'}
 ```
-Yllä olevan määrittelyn jälkeen metallit-joukon sisältö on {'Cu', 'Ag'}, eli vain uniikit arvot on tallennettu joukkoon.
-:::::{card} Tehtävä 3.1.1
+Yllä olevan määrittelyn jälkeen metallit-joukon sisältö on `{'Cu', 'Ag'}`, eli vain uniikit arvot on tallennettu joukkoon.
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
