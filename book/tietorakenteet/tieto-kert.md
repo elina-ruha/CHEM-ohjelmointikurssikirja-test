@@ -1,6 +1,6 @@
 # Kertaus
-Kierroksen 3 pikakertaus ennen kierrosta 4.
-:::::{card} Tehtävä 3.9.1
+Kerrataan tietorakenteita ennen kuin siirrytään lukuun *NumPy ja Matplotlib*
+:::::{card}
 ::::{question}
 :type: multiple-choice
 :variant: single-select
