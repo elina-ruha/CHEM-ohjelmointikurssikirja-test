@@ -104,7 +104,7 @@ for merkki in teksti:
         apujono = ""
 print(alkuaineet)
 ```
-### Tehtävä 3.8.1
+### Tehtävä
 Täydennä alla oleva koodi niin, että se tulostaa:
 ```
 Merkkijono listana: ['R', 'e', 'a', 'k', 't', 'o', 'r', 'i']
