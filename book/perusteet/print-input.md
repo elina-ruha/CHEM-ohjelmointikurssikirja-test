@@ -21,7 +21,7 @@ print("Terve!")
 ```
 ````{admonition} Funktiot
 :class: note dropdown
-Funktioiden toimintaperiaatteisiin perehdymme tarkemmin kurssin toisella kierroksella. Nyt ensimmäisellä kierroksella hyödynnämme vain muutamia Pythonin sisäänrakennettuja funktioita, joiden käyttö on yhtä suoraviivaista kuin print-funktion käyttö.
+Funktioiden toimintaperiaatteisiin perehdymme tarkemmin oppimateriaalin luvussa *Funktiot ja moduulit*. Nyt ensimmäisessa luvussa hyödynnämme vain muutamia Pythonin sisäänrakennettuja funktioita, joiden käyttö on yhtä suoraviivaista kuin print-funktion käyttö.
 ````
 
 Otetaan toinen esimerkki, jossa *print*-funktiolle annetaan useita eri arvoja pilkulla erotettuna. Se tulostaa molemmat arvot niin, että niiden välissä on välilyönti.
@@ -114,7 +114,7 @@ print("Rivi 2. Rivien väliin tuli rivinvaihto.")
 print("Teksti.", end = " ")
 print("Teksti 2. Tekstien väliin tuli välilyönti.")
 ```
-### Tehtävä 1.1.1
+### Tehtävä
 Täydennä alla oleva koodi niin, että se tulostaa:
 ```
 Hiilimonoksidin (CO) moolimassa on 28.01 g/mol
@@ -125,8 +125,8 @@ Tarkista koodi ajamalla se `run`-painikkeesta.
 TÄYDENNÄ("Hiilimonoksidin (CO) moolimassa on 28.01 g/mol")
 print("0.5 mol hiilimonoksidia painaa siis",TÄYDENNÄ/2, "grammaa")
 ```
-:::::{card} Tehtävä 1.1.2
-Täydennä tyhjät kentät riveittäin niin, että ohjelma tulostaa (> tarkoittaa käyttäjän syötettä):
+:::::{card} Tehtävä
+Täydennä tyhjät kentät riveittäin niin, että ohjelma tulostaa (">" tarkoittaa käyttäjän syötettä):
 ```
 Mitä opiskelet?
 > Kemian tekniikkaa
