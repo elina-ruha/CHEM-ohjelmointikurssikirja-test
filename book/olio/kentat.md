@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.6 Kenttien luominen käynnistysmetodissa
+# Kenttien luominen käynnistysmetodissa
 Luokat voivat sisältää myös kenttiä, joita ei anneta käynnistysmetodin parametrina. On kuitenkin hyvä ohjelmointitapa alustaa
 myös nämä kentät käynnistysmetodissa. Tarkastellaan luokkaa *Laboratorio*, jossa kaksi kenttää annetaan käynnistysmetodin
 parametreina ja yksi kenttä alustetaan käynnistysmetodissa:
