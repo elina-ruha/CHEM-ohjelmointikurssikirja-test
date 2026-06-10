@@ -9,17 +9,17 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.3 scipy.stats
+# scipy.stats
 [scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html)-moduuli sisältää valtavan määrän erilaisia tilastollisia
 funktioita ja jakaumafunktioita. Tämän kurssin puitteissa tutustumme vain *scipy.stats.linregress*-funktioon, jolla voi tehdä
 [lineaarisen regressioanalyysin](https://fi.wikipedia.org/wiki/Lineaarinen_regressioanalyysi) esimerkiksi mittausdatoille. 
 Käytännössähän kyse on samasta suoran yhtälön sovituksesta, mitä olemme jo tehneet 
-[numpy.polyfit](https://mycourses.aalto.fi/mod/book/view.php?id=1484072&chapterid=18937)-funktion avulla 1. asteen polynomeille. 
+[numpy.polyfit](../numpy/polynomit.md)-funktion avulla 1. asteen polynomeille. 
 *linregress*-funktio on kuitenkin suunniteltu juuri lineaariseen regressioon ja se myös palauttaa enemmän tietoja sovituksesta, esimerkiksi korrelaatiokertoimen ja keskivirheen. Lisäksi *linregress* on laskennallisesti tehokkaampi hyvin suurille datajoukoille.
 
 ## Esimerkki
 Tutustutaan *linregress*-funktioon esimerkin avulla. Meillä on käytössämme tiedosto 
-[T_p_data.txt](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/d7653b3f9e529b6be013bc50d1c5e8a52509b1c3/book/Kierros6_scipy/T_p_data.txt), 
+[T_p_data.txt](../scipy/T_p_data.txt), 
 jossa on esitetty painelämpötilan funktiona kaasumaiselle yhdisteelle (*n* = 0.65 mol). Mittausolosuhteet ovat sellaiset, 
 että voimme odottaa ideaalikaasulain olevan voimassa. Tehtävänä on ratkaista astian tilavuus *V*.  
 - *pV = nRT*, joten *p = nRT / V*
