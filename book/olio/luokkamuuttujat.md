@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.8 Luokkamuuttujat
+# Luokkamuuttujat
 Edellisen luvun esimerkissä *Molekyyli*-luokalla oli kaksi kenttää, *kaava* ja *moolimassa*. Jokaisella *Molekyyli*-luokan
 pohjalta luodulla oliolla on omat arvonsa näissä kentissä. Joskus voi olla kuitenkin tarpeen säilyttää tietoa, joka on
 kaikille luokan olioille yhteistä. Silloin voidaan hyödyntää **luokkamuuttujia**.
