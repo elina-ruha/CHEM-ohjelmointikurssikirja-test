@@ -1,0 +1,2 @@
+# Tekoälyjärjestelmien hyödyntäminen
+Tässä luvussa tutustumme tekoälyjärjestelmien hyödyntämiseen ohjelmoinnissa.
