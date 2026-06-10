@@ -42,7 +42,7 @@ parts:
       - file: tietorakenteet/sanakirjat.md
       - file: tietorakenteet/sisakkaiset.md
       - file: tietorakenteet/str-listana.md
-    - file: numpy/numpy_intro.md
+    - file: numpy/numpy-intro.md
       sections:
       - file: numpy/numpykirjasto.md
       - file: numpy/nparray.md
