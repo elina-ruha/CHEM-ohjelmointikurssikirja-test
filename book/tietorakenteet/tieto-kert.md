@@ -7,7 +7,10 @@ Kerrataan tietorakenteita ennen kuin siirrytään lukuun *NumPy ja Matplotlib*.
 :nocaption:
 :columns: 1
 
-Mikä tietorakenne "pH" on; pH = [1.5, 2.5, 4.5, 5.5, 6.5]?
+Mikä tietorakenne *pH* on?
+``` ipython3
+pH = [1.5, 2.5, 4.5, 5.5, 6.5]
+```
 ---
 [x] lista
 > Oikein!
@@ -43,7 +46,10 @@ Listan pituuden palauttava funktio?
 :nocaption:
 :columns: 1
 
-Luvut = [5, 4, 3, 2, 1]. Mikä on luvun 5 indeksi listassa?
+Mikä on luvun 5 indeksi listassa?
+``` ipython3
+luvut = [5, 4, 3, 2, 1]
+```
 ---
 [ ] 1
 > Yritä uudelleen!
@@ -77,7 +83,10 @@ Millä funktiolla listan loppuun voi lisätä yksittäisen alkion?
 :nocaption:
 :columns: 1
 
-'C' in ['C', 'H', 'O']: Totta vai tarua?
+Totta vai tarua?
+``` ipython3
+'C' in ['C', 'H', 'O']
+```
 ---
 [x] Totta
 > Oikein!
@@ -109,7 +118,10 @@ Millä silmukkarakenteella listoja voi käydä läpi?
 :nocaption:
 :columns: 1
 
-For avain, arvo in sanakirja.FUNKTIO(). Mikä on FUNKTIO()?
+Mikä on FUNKTIO()?
+``` ipython3
+For avain, arvo in sanakirja.FUNKTIO()
+```
 ---
 [ ] del
 > Yritä uudelleen!
