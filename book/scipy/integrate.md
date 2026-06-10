@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 6.5 scipy.integrate.solve_ivp
+# scipy.integrate.solve_ivp
 Kemian tekniikassa haluamme usein ratkaista (integroida) differentiaaliyhtälöitä numeerisesti. SciPyn 
 [integrate](https://docs.scipy.org/doc/scipy/reference/integrate.html)-alamoduuli sisältää useita funktioita tätä varten.
 Tällä kurssilla tutustutaan [scipy.integrate.solve_ivp](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html)-funktioon. 
