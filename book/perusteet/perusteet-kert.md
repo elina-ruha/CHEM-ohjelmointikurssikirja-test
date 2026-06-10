@@ -1,6 +1,6 @@
 # Kertaus
-Kierroksen 1 pikakertaus ennen kierrosta 2.
-:::::{card} Tehtävä 1.12.1
+Kerrataan Pythonin perusteita ennen siirtymistä lukuun *Funktiot ja moduulit*.
+:::::{card}
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
