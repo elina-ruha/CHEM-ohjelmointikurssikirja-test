@@ -46,7 +46,7 @@ jalokaasut  = ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn']
 print(jalokaasut[0])
 print(jalokaasut[3])
 ```
-Alkioihin voi viitata myös negatiivisella indeksillä. Tällöin viimeisen alkion indeksi on -1. Negatiivisen indeksoinnin
+Alkioihin voi viitata myös negatiivisella indeksillä. Tällöin viimeisen alkion indeksi on `-1`. Negatiivisen indeksoinnin
 etuja on mm. se, ettei tarvitse käyttää *len*-funktiota viimeisen alkion osoittamiseksi:
 ```{code-cell} ipython3
 jalokaasut = ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn']
@@ -77,7 +77,7 @@ print(jalokaasut[0:6:2])
 # Viimeisessä esimerkissä poimitaan siis joka toinen alkio käyttämällä askelta 2
 ```
 ## Listan täyttäminen *range*-funktion avulla
-[for-silmukoiden](../Kierros1/s1_11.md) yhteydessä tutustuimme *range*-funktioon, jolla voi luoda numerosarjoja.
+[for-silmukoiden](../perusteet/for-range.md) yhteydessä tutustuimme *range*-funktioon, jolla voi luoda numerosarjoja.
 *range*-funktion avulla voi myös täyttää listoja:
 ```{code-cell} ipython3
 parilliset = list(range(2, 11, 2))
@@ -109,7 +109,7 @@ print(numerot2)
 ```
 ## Syventävää tietoa: listan "purkaminen" funktion parametreiksi
 Joillekin funktiolle voi antaa listan "puretussa" muodossa (engl. *unpacking*). Tällöin parametrina annettavan listan
-nimen eteen lisätään *-merkki:
+nimen eteen lisätään `*`-merkki:
 ```{code-cell} ipython3
 jalokaasut = ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn']
 print(jalokaasut)
@@ -121,7 +121,7 @@ Ensimmäisessä tapauksessa *jalokaasut*-lista välittyi *print*-funktiolle list
 Jälkimmäisessä tapauksessa lista "purettiin" kuudeksi erilliseksi parametriksi ja *print*-funktio tulosti nämä
 parametrit välilyönnillä erotettuina.
 ## Syventävää tietoa: listan kopioiminen
-Edellä mainittiin komento lista[:], jolla voi luoda **kopion** listasta. Käytännön esimerkki, jossa luodaan kopio 
+Edellä mainittiin komento `lista[:]`, jolla voi luoda **kopion** listasta. Käytännön esimerkki, jossa luodaan kopio 
 listasta ja kopion muokkaaminen ei vaikuta alkuperäiseen listaan:
 ```{code-cell} ipython3
 jalokaasut = ['He', 'Ne', 'Ar', 'Kr', 'Xe', 'Rn']
@@ -147,7 +147,7 @@ print(jalokaasut[1])
 Tähän toimintatapaan on omat järkevät syynsä, kuten muistin säästäminen. Tämän kurssin puitteissa emme käsittele yllä olevan
 kaltaisia viittauksia tietorakenteisiin, vaan meille riittää listojen sisällön kopioiminen. Tämä asia on kuitenkin hyvä
 painaa mieleen, koska viitteiden käyttäminen vahingossa on helppo tapa ns. ampua itseään jalkaan.
-:::::{card} Tehtävä 3.2.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
