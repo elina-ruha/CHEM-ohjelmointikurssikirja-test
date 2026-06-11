@@ -12,7 +12,7 @@ kernelspec:
 # NumPy-polynomit
 Kemian tekniikassa haluamme usein sovittaa polynomeja mittausdataan.  Polynomien käsittelyssä voimme käyttää
 *[numpy.poly1d](https://numpy.org/doc/stable/reference/generated/numpy.poly1d.html)*-toimintoa (varsinaisesti kyseessä
-on "luokka", joita käsitellään olio-ohjelmoinnin yhteydessä kurssin 6. kierroksella).
+on "luokka", joita käsitellään luvussa *Olio-ohjelmointi*).
 ## Polynomien luominen
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
@@ -139,7 +139,7 @@ R_toiseen = R**2
 print(f"Sovituksen R^2 on: {R_toiseen:.3f}")
 ```
 Eli tässä tapauksessa X- ja Y-arvojen välillä on erittäin vahva lineaarinen korrelaatio (absorbanssi on suoraan verrannollinen konsentraatioon).
-### Tehtävä 4.9.1
+### Tehtävä
 Täydennä koodi niin, että se toimisi. Vaihtoehtoja täydennykseksi: `poly1d`, `deriv`, `der`, `pol.r`, `pol`
 ```{code-cell} ipython3
 import numpy as np
