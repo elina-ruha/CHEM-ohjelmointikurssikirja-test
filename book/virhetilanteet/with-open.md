@@ -46,7 +46,7 @@ except OSError:
     print("Tiedoston moolimassat.txt avaaminen epaonnistui!")
 ```
 Tämä viimeinen esimerkki on **minimivaatimus** virheenkäsittelylle tiedostoja avattaessa!
-:::::{card} Tehtävä 5.5.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
