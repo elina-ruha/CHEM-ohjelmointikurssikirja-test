@@ -1,6 +1,6 @@
 # Kertaus
-Kierroksen 4 pikakertaus ennen kierrosta 5.
-:::::{card} Tehtävä 4.10.1
+Kerrataan NumPy- ja Matplotlib-kirjastoja ennen lukua *Tiedostojen käsittely*.
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
