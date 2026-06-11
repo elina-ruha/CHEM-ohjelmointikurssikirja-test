@@ -48,7 +48,7 @@ Mikä virhetilanne pitää käsitellä, jos tiedostoa ei voi avata?
 :nocaption:
 :columns: 1
 
-Missä tilanteessa seuraava koodi tulostaa 
+Missä tilanteessa seuraava koodi tulostaa "b"?
 ``` ipython3
 try:
     tiedosto = open(tiedoston_nimi, "r")
