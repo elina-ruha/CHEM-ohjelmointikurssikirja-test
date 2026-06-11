@@ -51,7 +51,7 @@ print("tulo on", tulo)
 ```
 :::{admonition} Huom!
 :class: note
-Esimerkin kertolasku *M * a* on aivan eri asia kuin oikea matriisitulo! Siitä lisää seuraavassa luvussa.
+Esimerkin kertolasku $M * a$ on aivan eri asia kuin oikea matriisitulo! Siitä lisää seuraavassa luvussa.
 :::
 ## Laskutoimitukset ilman silmukoita
 Tarkastellaan esimerkin avulla, kuinka NumPy-taulukoiden kanssa toimitaan listoihin verrattuna. Aiemmin olemme oppineet, kuinka kahdesta listasta lasketaan tuloksia kolmanteen:
@@ -77,7 +77,7 @@ NumPy jakaa siis taulukon *massat* jokaisen alkion taulukon *moolimassat* vastaa
 varsinkin kun kyseessä on vähänkin isompi datamäärä. NumPyn lähestymistapaa kutsutaan *vektoroinniksi*.
 :::
 ### Laajempi esimerkki
-Toteutetaan funktio *ainemaara* NumPy-taulukoiden avulla. Voit kopioida koodin Spyderiin tai ajaa sen osissa oppimateriaalissa.
+Toteutetaan funktio *ainemaara* NumPy-taulukoiden avulla. Voit kopioida koodin Spyderiin tai ajaa sen oppimateriaalissa.
 ```{code-cell} ipython3
 import numpy as np
 
@@ -107,7 +107,7 @@ print(n2)
 n3 = ainemaara(3.2, moolimassat)
 print(n3)
 ```
-:::::{card} Tehtävä 4.4.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
