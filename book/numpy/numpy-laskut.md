@@ -51,7 +51,7 @@ print("tulo on", tulo)
 ```
 :::{admonition} Huom!
 :class: note
-Esimerkin kertolasku $M * a$ on aivan eri asia kuin oikea matriisitulo! Siitä lisää seuraavassa luvussa.
+Esimerkin kertolasku $M\cdot a$ on aivan eri asia kuin oikea matriisitulo! Siitä lisää seuraavassa luvussa.
 :::
 ## Laskutoimitukset ilman silmukoita
 Tarkastellaan esimerkin avulla, kuinka NumPy-taulukoiden kanssa toimitaan listoihin verrattuna. Aiemmin olemme oppineet, kuinka kahdesta listasta lasketaan tuloksia kolmanteen:
