@@ -73,23 +73,4 @@ except OSError:
 > Oikein!
 ---
 ::::
-
-::::{question}
-:type: multiple-choice
-:variant: multiple-select
-:nocaption:
-:columns: 1
-
-Mitä hyötyjä `with open`-funktion käyttämisessä on?
----
-[x] Se sulkee tiedoston automaattisesti.
-> Oikein!
-[ ] Se lukee tiedoston automaattisesti.
-> Ei valitettavasti, yritä uudelleen!
-[ ] Se tarkistaa tiedoston automaattisesti, jolloin ei tarvita try-except-rakennetta.
-> Ei valitettavasti, yritä uudelleen!
-[x] Sitä käyttämällä voidaan korvata eräänlainen try-finally rakenne.
-> Oikein! finally: tiedosto.close()
----
-::::
 :::::
