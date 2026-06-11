@@ -37,7 +37,7 @@ Katsotaan, mitä määrittelemällämme luokalla voidaan nyt tehdä. Luodaan *Mo
 metaani = Molekyyli("CH4", 16.04) 
 etaani = Molekyyli("C2H6", 30.07)
 ```
-Käsky *Molekyyli("CH4", 16.04)* tarkoittaa, että *Molekyyli*-luokan `__init__`-metodia kutsutaan parametreilla "CH4" ja 
+Käsky `Molekyyli("CH4", 16.04)` tarkoittaa, että *Molekyyli*-luokan `__init__`-metodia kutsutaan parametreilla "CH4" ja 
 16.04 (*self*-parametria ei anneta, vaan Python antaa sen `__init__`-käynnistysmetodille automaattisesti). Käsky palauttaa
 uuden olion, jonka kentät *kaava* ja *moolimassa* on täytetty arvoilla "CH4" ja 16.04. Tämä olio sijoitetaan muuttujaan *metaani*.
 ## Kokonainen olioesimerkki
@@ -98,7 +98,7 @@ lista.append(1)
 # Tulostetaan ykkösten määrä listassa
 print(lista.count(1))
 ```
-### Tehtävä 6.0.2
+### Tehtävä
 Alla on yksinkertainen luokka Atomi, joka sisältää *laske_varaus*-metodin alkuaineelle. Täydennä koodi niin, että luokka toimisi.
 ```{code-cell} ipython3
 TÄYDENNÄ Atomi:
