@@ -36,13 +36,13 @@ propaani = Molekyyli("C3H8", 44.10)
 print(f"Olet luonut {Molekyyli.maara} molekyyliä")
 ```
 Luokkamuuttuja *maara* määritellään siis luokan metodien ulkopuolella. Se saa arvon 0, kun ohjelma käynnistyy
-(rivi "maara = 0" luokan määrittelyn alussa). Kun luokan pohjalta luodaan uusi olio, käynnistysmetodi kasvattaa
-luokkamuuttujan arvoa yhdellä (*Molekyyli.maara += 1*). 
+(rivi `maara = 0` luokan määrittelyn alussa). Kun luokan pohjalta luodaan uusi olio, käynnistysmetodi kasvattaa
+luokkamuuttujan arvoa yhdellä (`Molekyyli.maara += 1`). 
 :::{admonition} Huom!
 :class: tip
 Luokkamuuttujaan on viitattava luokan nimen avulla (*Molekyyli.maara*) sekä luokan metodien sisällä että luokkamäärittelyn ulkopuolella.
 :::
-### Tehtävä 6.8.1
+### Tehtävä
 Alla on yksinkertainen luokka Atomi, jonka käynnistysmetodissa oliolle luodaan kolme kenttää: merkki, protonit, elektronit.
 Täytä puuttuvat kohdat niin, että ohjelman esimerkkitulostus olisi:
 ```
