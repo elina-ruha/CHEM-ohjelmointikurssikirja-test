@@ -109,9 +109,9 @@ print(D)
 ```
 :::{admonition} Huom!
 :class: attention
-*np.matmul*(A, B) != *np.matmul*(B, A)
+***np.matmul*(A, B) != *np.matmul*(B, A)**
 :::
-### Tehtävä 4.5.1
+### Tehtävä
 Täydennä alla oleva koodi niin, että se tulostaa:\
 Vektorin summa 15 ja tulo 120.
 ```{code-cell} ipython3
@@ -124,7 +124,7 @@ tulo = np.TÄYDENNÄ(v)
 
 print(f"Vektorin summa {summa:d} ja tulo {tulo:d}.")
 ```
-:::::{card} Tehtävä 4.5.2
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
