@@ -59,9 +59,9 @@ for rivi in Tulos_T:
     break
 Tulos_T.close()
 ```
-*savetxt*-funktion *header*-parametrin arvo tulee siis tiedoston alkuun kommenttiriviksi. *fmt*-parametrin rakenne on periaatteessa sama kuin *str.format*-funktiolla, mutta kaarisulut korvautuvat %-merkillä, eikä :-merkkiä käytetä. Lisätietoja [numpy.savetxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.savetxt.html)-funktion ohjeesta.
+*savetxt*-funktion *header*-parametrin arvo tulee siis tiedoston alkuun kommenttiriviksi. *fmt*-parametrin rakenne on periaatteessa sama kuin *str.format*-funktiolla, mutta kaarisulut korvautuvat `%`-merkillä, eikä `:`-merkkiä käytetä. Lisätietoja [numpy.savetxt](https://docs.scipy.org/doc/numpy/reference/generated/numpy.savetxt.html)-funktion ohjeesta.
 :::{admonition} Huom!
-:class: note
+:class: warning
 Jos tarkastelet *savetxt*-tiedoston luomaa tiedostoa Windowsissa, rivinvaihdot eivät välttämättä näy oikein. Tämä johtuu siitä, etteivät monet Windows-ohjelmat ymmärrä \n-rivinvaihtoa oikealla tavalla. Tiedosto näkyy oikein esim. Spyderissä.
 :::
 ## numpy.column_stack
@@ -88,7 +88,7 @@ np.savetxt("VpT.txt", VpT_data, fmt="%10.3f %10.0f %10.1f",
      0.310     1176944      877.6
      0.410      838490      826.9
 ```
-### Tehtävä 5.3.1
+### Tehtävä
 Täydennä niin, että tiedoston c.txt neljä ensimmäistä riviä olisivat:
 ``` ipython3
 #c (mol\dm^3)
