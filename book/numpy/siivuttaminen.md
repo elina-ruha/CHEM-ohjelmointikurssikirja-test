@@ -10,8 +10,8 @@ kernelspec:
   name: python3
 ---
 # NumPy-taulukoiden siivuttaminen
-NumPy-taulukoiden siivuttaminen toimii samaan tapaan kuin [listojen siivuttaminen](../Kierros3/s3_2.md). Merkinnässä 
-[*start:stop:askel*], *stop*-alkio ei kuulu enää siivuun. *askel*-osuus ei ole pakollinen. 
+NumPy-taulukoiden siivuttaminen toimii samaan tapaan kuin [listojen siivuttaminen](../tietorakenteet/listat.md). 
+Merkinnässä `[start:stop:askel]`, *stop*-alkio ei kuulu enää siivuun. *askel*-osuus ei ole pakollinen. 
 
 Luodaan ensin uusi yksiulotteinen taulukko (vektori) ja siivutetaan se:
 ```{code-cell} ipython3
@@ -29,7 +29,7 @@ print("siivu2 on", siivu2)
 siivu3 = v[0:7:2]
 print("siivu3 on", siivu3)
 ```
-NumPy-tarjoaa myös erittain käytannöllisen **:** -indeksoinnin Matlabin tapaan. **:** -indeksi tarkoittaa kyseisen ulottuvuuden
+NumPy-tarjoaa myös erittain käytannöllisen `:` -indeksoinnin Matlabin tapaan. `:` -indeksi tarkoittaa kyseisen ulottuvuuden
 kaikkia indeksejä:
 ```{code-cell} ipython3
 import numpy as np
@@ -45,7 +45,7 @@ print("B1 on", B1)
 B2 = M[1]
 print("B2 on", B2)
 ```
-**:**-indeksointia voi käyttää myös näin:
+`:`-indeksointia voi käyttää myös näin:
 ```{code-cell} ipython3
 import numpy as np
 # Poimitaan matriisin M kaikkien rivien joka toinen sarake
@@ -57,13 +57,13 @@ print("Taulukko A2 on", A2)
 ```
 :::{admonition} Vinkki
 :class: tip
-Merkintä M[:, 0::2] tarkoittaa siis, että poimitaan 
+Merkintä `M[:, 0::2]` tarkoittaa siis, että poimitaan 
 - kaikilta riveiltä (kaksoispiste ennen pilkkua) 
 - ensimmäisestä sarakkeesta lähtien (0) 
 - viimeiseen sarakkeeseen asti (*stop*-arvo puuttuu)
 - kahden sarakkeen askelvälillä (2).
 :::
-:::::{card} Tehtävä 4.3.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
