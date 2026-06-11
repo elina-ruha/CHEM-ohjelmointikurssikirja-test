@@ -1,6 +1,6 @@
 # Kertaus
 Kerrataan NumPy- ja Matplotlib-kirjastoja ennen lukua *Tiedostojen käsittely*.
-:::::{card} Tehtävä
+:::::{card}
 ::::{question}
 :type: multiple-choice
 :variant: single-select
