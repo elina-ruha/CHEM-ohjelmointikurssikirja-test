@@ -33,7 +33,7 @@ plt.plot(X,Y)
 plt.show()
 ```
 ## Kuvaajan oletusasetuksien muuttaminen
-[matplotlib.pyplot.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)-funktion parametrejä muokkaamalla voi vaikuttaa kuvaajan ulkonäköön. Lyhyt yhteenveto parametrien mahdollisista arvoista [seuraavassa luvussa](../Kierros4/s4_8.md).
+[matplotlib.pyplot.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)-funktion parametrejä muokkaamalla voi vaikuttaa kuvaajan ulkonäköön. Lyhyt yhteenveto parametrien mahdollisista arvoista [seuraavassa luvussa](../numpy/maaritelmia.md).
 ```{code-cell} ipython3
 import numpy as np
 import matplotlib.pyplot as plt
@@ -127,7 +127,7 @@ Matplotlib.pyplot-moduuli sisältää valtavasti erilaisia toiminnallisuuksia. E
 2. <https://matplotlib.org/stable/api/pyplot_summary.html>
 3. <https://github.com/rougier/matplotlib-tutorial>
 
-:::::{card} Tehtävä 4.7.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
@@ -149,7 +149,7 @@ Valitse oikeat väittämät.
 ---
 ::::
 :::::
-### Tehtävä 4.7.2
+### Tehtävä
 Täydennä koodi, niin että se piirtäisi vihreän kuvaajan.
 ```{code-cell} ipython3
 import numpy as np
