@@ -67,7 +67,7 @@ parts:
       sections:
       - file: virhetilanteet/try-except.md
       - file: virhetilanteet/with-open.md
-      - file: virhetilanteet/virheet-kert.md
+      - file: virhetilanteet/virhe-kert.md
     - file: scipy/scipy-intro.md
       sections:
       - file: scipy/scipy.md
