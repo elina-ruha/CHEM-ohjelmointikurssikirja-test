@@ -138,7 +138,7 @@ Tiedostoa teksti.txt ei voitu lukea
 Suljetaan tiedosto
 ```
 Ohjelma siis sulkee viimeisenä tekonaan tiedoston. Tämä on tärkeää ja tiedostojen kanssa tuleekin aina käyttää
-**try-finally** -rakennetta. Helpoiten tämän vaatimuksen voi kuitata käyttämällä **with**-lausetta (ks. [seuraava luku](../Kierros5/s5_5.md)).
+**try-finally** -rakennetta. Helpoiten tämän vaatimuksen voi kuitata käyttämällä **with**-lausetta (ks. [seuraava luku](../virhetilanteet/with-open.md)).
 ## try-except-else(-finally)
 **try-except**-rakenteeseen voi yhdistää myös **else**-osan, joka suoritetaan siinä tapauksessa, että **try**-osio ei
 aiheuttanut poikkeuksia:
@@ -161,7 +161,7 @@ Monimutkaisemmissa ohjelmissa pitää ottaa huomioon myös erilaisten kirjastoje
 jonka tehtävä on esimerkiksi valvoa kriittistä tuotantoprosessia, voikin olla enemmän 
 virheenkäsittelykoodia kuin varsinaista toiminnallista koodia!
 :::
-### Tehtävä 5.4.1
+### Tehtävä
 *tulokset.txt* on tiedosto, joka sisältää reaktiotuotteen konsentraatiot viiden minuutin välein. Tiedoston kolme 
 ensimmäistä riviä voisivat näyttää esimerkiksi tältä:
 ``` ipython3
