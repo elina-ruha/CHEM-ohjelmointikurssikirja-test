@@ -88,7 +88,7 @@ plt.show()
 vektorin *y* ja *solve_ivp* palauttaa taulukon *tulos.y*, jossa on yhtä monta riviä kuin vektorissa *y0* on alkioita.
 :::
 
-:::::{card} Tehtävä 6.5.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: multiple-select
