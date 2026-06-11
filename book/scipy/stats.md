@@ -68,7 +68,7 @@ else:
     print("V: {:.3f} m^3".format(n * R / slope))
     print("Kulmakertoimen keskivirhe: {:.1f}".format(std_err))
 ```
-### Tehtävä 6.3.1
+### Tehtävä
 Täytä puuttuvat kohdat niin, että koodi toimisi.\
 Vaihtoehdot tyhjiin kohtiin: `linregress`, `std_err`, `scipy.stats`, `intercept`, `slope`, `p_value`\
 Esimerkkitulostus:
