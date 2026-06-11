@@ -13,7 +13,7 @@
 Jos haluat tehdä numeerista laskentaa Pythonilla, käytä NumPy-kirjastoa. [NumPy](http://www.numpy.org/) + 
 [SciPy](https://www.scipy.org/) + [Matplotlib](https://matplotlib.org/) –yhdistelmällä voi korvata monessa asiassa Matlabin. 
 
-Matplotlib-kirjastoa käytämme jo tällä kierroksella kuvaajien tekemiseen. SciPy:stä opimme lisää kurssin viimeisellä kierroksella.
+Matplotlib-kirjastoa käytämme jo tämän luvun tehtävissä kuvaajien tekemiseen. SciPy:stä opimme lisää seuraavassa luvussa kierroksella.
 :::{admonition} Vinkki
 :class: tip
 Jos haluat oppia NumPystä enemmän kuin tämän kurssin puitteissa on mahdolista, suosittelen Nicolas P. Rougierin materiaaleja:\
