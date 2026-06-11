@@ -19,7 +19,7 @@ import numpy as np
 Taulukoita (*array*) voi luoda suoraviivaisesti
 [*numpy.array*](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html)-funktion avulla.
 ### Yksiulotteiset taulukot (vektorit)
-Luodaan yksiulotteinen neljan alkion taulukko (eli vektori)
+Luodaan yksiulotteinen neljan alkion taulukko (eli vektori).
 ```{code-cell} ipython3
 :tags: ["auto-execute-page"]
 import numpy as np
@@ -42,7 +42,7 @@ print(eka, toka, vika_1, vika_2)
 ```
 ### Kaksiulotteiset taulukot (matriisit)
 Luodaan kaksiulotteinen kahden rivin ja kolmen sarakkeen taulukko (eli **matriisi**). Erona tavallisiin listoihin
-kaksiulotteisten NumPy-taulukkojen alkioihin voi viitata käytännöllisellä *taulukko[rivi, sarake]* -merkinnällä:
+kaksiulotteisten NumPy-taulukkojen alkioihin voi viitata käytännöllisellä `taulukko[rivi, sarake]` -merkinnällä:
 ```{code-cell} ipython3
 import numpy as np
 matriisi = np.array([[10, 20, 30],
@@ -56,7 +56,7 @@ print("tokan rivin vika sarake on", tokan_rivin_vika_sarake)
 ```
 :::{admonition} Huom!
 :class: note
-Myös tavallisista listoista tuttu merkintä *taulukko[rivi][sarake]* toimii, mutta se on kömpelömpi käyttää.
+Myös tavallisista listoista tuttu merkintä `taulukko[rivi][sarake]` toimii, mutta se on kömpelömpi käyttää.
 :::
 ### Kolmiulotteiset taulukot
 Luodaan viimeisenä esimerkkinä kolmiulotteinen 2 x 2 x 3 taulukko:
@@ -159,7 +159,7 @@ v3 = np.arange(1, 10)
 # Huomaa, että viimenen alkio on loppu-1 (kuten range-funktiolla)
 print("v3 on", v3)
 ```
-Myös muoto *np.arange(alku, loppu, askel)* on käytössä:
+Myös muoto `np.arange(alku, loppu, askel)` on käytössä:
 ```{code-cell} ipython3
 import numpy as np
 v4 = np.arange(2, 11, 2)
@@ -168,7 +168,7 @@ print("v4 on", v4)
 ## Liukulukuja sisältävien taulukoiden luominen *linspace*-funktiolla
 Liukulukuja sisältäviä taulukoita voi luoda
 [*numpy.linspace*](https://docs.scipy.org/doc/numpy/reference/generated/numpy.linspace.html)-funktiolla, jota kutsutaan
-*numpy.linspace(start, stop, num)*. Parametri *start* on ensimmäinen luku, *stop* on viimeinen luku ja *num* on lukujen
+`numpy.linspace(start, stop, num)`. Parametri *start* on ensimmäinen luku, *stop* on viimeinen luku ja *num* on lukujen
 määrä välillä *start..stop*. 
 :::{admonition} Huom!
 :class: attention
@@ -191,7 +191,7 @@ v7 = np.linspace(-5, 5, 11)
 print("v7 on", v7)
 ```
 Jos tarvitset tasavälisiä lukuja logaritmisella asteikolla, voit käyttää funktiota [*numpy.logspace*](https://docs.scipy.org/doc/numpy/reference/generated/numpy.logspace.html). 
-:::::{card} Tehtävä 4.2.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
