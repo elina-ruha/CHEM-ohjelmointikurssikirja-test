@@ -75,6 +75,7 @@ parts:
       - file: scipy/stats.md
       - file: scipy/linalg.md
       - file: scipy/integrate.md
+      - file: scipy/scipy-kert.md
     - file: tekoaly/tekoaly-intro.md
     - file: olio/olio-intro.md
       sections:
