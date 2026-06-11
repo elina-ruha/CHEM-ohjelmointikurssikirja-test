@@ -42,12 +42,15 @@ kcal_mol = 104.5 #kcal/mol
 kJ_mol = kcal_mol * scipy.constants.calorie
 print(f"{kcal_mol:.2f} kcal/mol on SI-yksiköissä {kJ_mol:.3f} kJ/mol")
 ```
-### Tehtävä 6.2.1
+### Tehtävä
 Täytä puuttuvat kohdat niin, että
 1) ohjelmaan tuodaan moduuli scipy.constants ja käytetään siitä physical_constants sanakirjaa
 2) physical_constants sanakirjasta haetaan Avogadron vakion arvo ja yksikkö
 
-Ohjelman pitäisi tulostaa "Avogadron vakion arvo on 6.0221409 x 10^23 mol^-1"
+Ohjelman pitäisi tulostaa:
+```
+Avogadron vakion arvo on 6.0221409 x 10^23 mol^-1
+```
 ```{code-cell} ipython3
 from TÄYDENNÄ import TÄYDENNÄ as pc
 N_A = pc[TÄYDENNÄ][0]
