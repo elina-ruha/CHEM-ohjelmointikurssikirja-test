@@ -138,7 +138,10 @@ For avain, arvo in sanakirja.FUNKTIO()
 :nocaption:
 :columns: 1
 
-Atomipainot{'P'} = 30.97 lisää sanakirjaan parin 'P':30.97. Totta vai tarua?
+Totta vai tarua? Alla oleva koodi lisää sanakirjaan parin 'P':30.97.
+``` ipython3
+Atomipainot{'P'} = 30.97
+```
 ---
 [ ] Totta
 > Tulee olla [].
