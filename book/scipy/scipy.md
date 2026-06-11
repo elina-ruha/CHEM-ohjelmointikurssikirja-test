@@ -1,4 +1,4 @@
-# SciPy
+# SciPy-kirjasto
 [SciPy](https://www.scipy.org/) on Pythonilla luotu tieteellisen laskennan infrastruktuuri, joka on vapaasti kaikken 
 Python-ohjelmoijien käytettävissä. SciPy on laaja kokonaisuus ja olemmekin jo käyttäneet osia siitä: 
 - NumPy-kirjasto on osa SciPyä ja SciPyn eri toiminnot hyödyntävät hyvin paljon NumPy-taulukoita
