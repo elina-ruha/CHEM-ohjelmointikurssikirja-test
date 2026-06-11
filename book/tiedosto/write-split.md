@@ -125,8 +125,8 @@ symbolin, nimen, sulamispisteen (°C) ja kiehumispisteen (°C). Tiedoston kaksi 
 Sc, skandium   , 1541.0 ,2830
 Ti  , titaani  , 1668.0,3287
 ```
-**Huomaa**, että tiedot ovat nyt pilkulla eroteltuna ja sisältävät ylimääräisiä välilyöntejä. Luetaan nyt tiedoston sisältö hyödyntämällä [*str.split*](..Kierros3/s3_8.md)-funktion *sep*-parametriä, jolla voi määrätä datapisteiden välisen
-erottimen. Lisäksi tarvitsemme [*str.strip*](https://docs.python.org/3/library/stdtypes.html#str.strip)-funktiota 
+**Huomaa**, että tiedot ovat nyt pilkulla eroteltuna ja sisältävät ylimääräisiä välilyöntejä. Luetaan nyt tiedoston sisältö hyödyntämällä [*str.split*](../tietorakenteet/str-listana.md)-funktion *sep*-parametriä, jolla voi määrätä datapisteiden 
+välisen erottimen. Lisäksi tarvitsemme [*str.strip*](https://docs.python.org/3/library/stdtypes.html#str.strip)-funktiota 
 ylimääräisten välilyöntien poistamiseen.
 ```{code-cell} ipython3
 metallit = []
@@ -149,7 +149,7 @@ for rivi in tiedosto:
 # Lopuksi suljetaan tiedosto!
 tiedosto.close()
 ```
-### Tehtävä 5.2.1
+### Tehtävä
 Täydennä koodi niin, että lähtöarvojen perusteella laskettu data tallennetaan uuteen tiedostoon.\
 Vaihtoehtoja tyhjiin kohtiin: `close`, `open`, `strip`, `close`, `split`, `write`, `open`
 ```{code-cell} ipython3
