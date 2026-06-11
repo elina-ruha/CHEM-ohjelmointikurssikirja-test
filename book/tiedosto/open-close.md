@@ -65,7 +65,7 @@ mittaukset.close()
 **Tiedoston sulkeminen on erittäin tärkeää!** Jos kirjoitat tiedostoon, mutta jätät tiedoston sulkematta, tiedot eivät välttämättä tallennu!
 :::
 
-:::::{card} Tehtävä 5.1.1
+:::::{card} Tehtävä
 ::::{question}
 :type: multiple-choice
 :variant: single-select
