@@ -49,13 +49,13 @@ class Molekyyli:
   def __init__(self, kaava, moolimassa):
 ```
 ---
-[ ] metaani.__init__("CH4", 16.04)
+[ ] `metaani.__init__("CH4", 16.04)`
 > Yritä uudelleen!
-[ ] metaani = Molekyyli.__init("CH4", 16.04)
+[ ] `metaani = Molekyyli.__init("CH4", 16.04)`
 > Yritä uudelleen!
-[ ] metaani = Molekyyli(metaani, "CH4", 16.04)
+[ ] `metaani = Molekyyli(metaani, "CH4", 16.04)`
 > Yritä uudelleen!
-[x] metaani = Molekyyli("CH4", 16.04)
+[x] `metaani = Molekyyli("CH4", 16.04)`
 > Oikein!
 ---
 ::::
