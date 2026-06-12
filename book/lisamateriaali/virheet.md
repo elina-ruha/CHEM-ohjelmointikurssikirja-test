@@ -34,7 +34,7 @@ NameError: name 'x' is not defined
 ErrorExample1.py rivillä 1. Huomaa miten virheviestissä lukee polku, jossa tiedosto sijaitsee, pelkän nimen sijaan. </p>
 
 Seuraava rivi kertoo meille, mitä kyseisellä rivillä lukee. Tässä tapauksessa koodin pätkä, mikä aiheuttaa virheen
-on *print(x)*.
+on `print(x)`.
 
 Viimeinen rivi tracebackissä kertoo meille mikä virhe on kyseessä. Kyseinen virhe on siis *NameError*, joka johtuu siitä,
 että muuttujaa x ei ole määritelty.
@@ -83,7 +83,7 @@ itse luomassasi tiedostossa.
 :::
 ## Esimerkki 3
 Tracebackistä ei kuitenkaan aina ole apua. Otetaan esimerkiksi koodi
-``` ipython3
+```{code-cell} ipython3
 def kerro_kymmenella(numero):
     return numero * 0
 numero = 5
@@ -113,5 +113,5 @@ että virhe on *while*-silmukassa. Kun virheen sijainti tiedetään, on helppo h
 numero arvoa ei vähennetä silmukassa.
 :::{admonition} Vinkki
 :class: tip
-Virheiden käsittelystä kerrotaan lisää muualla [oppimateriaalissa](../Kierros5/s5_4.md).
+Virheiden käsittelystä kerrotaan lisää muualla [oppimateriaalissa](../virhetilanteet/try-except.md).
 :::
