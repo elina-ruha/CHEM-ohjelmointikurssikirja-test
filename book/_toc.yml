@@ -84,6 +84,7 @@ parts:
       - file: olio/sailominen.md
       - file: olio/luokkamuuttujat.md
       - file: olio/str.md
+      - file: olio/olio-kert.md
   - caption: Lisämateriaali
     chapters:
     - file: lisamateriaali/spyder-asennus.md
