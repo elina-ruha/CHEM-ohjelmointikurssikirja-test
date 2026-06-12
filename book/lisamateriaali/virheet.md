@@ -83,7 +83,7 @@ itse luomassasi tiedostossa.
 :::
 ## Esimerkki 3
 Tracebackistä ei kuitenkaan aina ole apua. Otetaan esimerkiksi koodi
-```{code-cell} ipython3
+``` ipython3
 def kerro_kymmenella(numero):
     return numero * 0
 numero = 5
