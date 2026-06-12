@@ -33,5 +33,5 @@ Anna paine (atm) niin muunnan sen pascaleiksi (Pa):
 Kun muuntokerroin on määritelty vakiona yhdessä paikassa, **pienenee myös inhimillisten virheiden määrä**. Näin
 muuntokertoimelle ei tule vahingossa käytettyä eri arvoa eri paikoissa. Jos olet kirjoittamassa laajempaa ohjelmaa,
 jossa käytetään useita luonnonvakioita, on yleensä hyvä ratkaisu määritellä kaikki luonnonvakiot omassa moduulissaan
-(esim. [*ideaalikaasu.py*](../funktiot/ideaalikaasu.py))
+(esim. [*ideaalikaasu.py*](https://github.com/elina-ruha/CHEM-ohjelmointikurssikirja-test/blob/main/book/funktiot/ideaalikaasu.py))
 ja ottaa tämä moduuli käyttöön tarpeen mukaan.
