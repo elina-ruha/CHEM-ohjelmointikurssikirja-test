@@ -93,7 +93,7 @@ parts:
     - file: lisamateriaali/virheet.md
     - file: lisamateriaali/main-funktio.md
     - file: lisamateriaali/verkko-mat.md
-    - file: lisamateriaali/anaconda.md
+    - file: lisamateriaali/vaihtoehdot.md
   - caption: Muuta
     chapters:
     - file: changelog.md
