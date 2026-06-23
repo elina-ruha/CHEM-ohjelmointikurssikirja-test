@@ -35,9 +35,9 @@ from scipy.constants import R
 
 n = 0.65 # mol
 try:
-    T_p_datat = np.loadtxt("T_p_data.txt")   # Luetaan datat tiedostosta
+    T_p_datat = np.loadtxt("T-p-data.txt")   # Luetaan datat tiedostosta
 except OSError:
-    print("Tiedoston T_p_data.txt avaaminen epaonnistui")
+    print("Tiedoston T-p-data.txt avaaminen epaonnistui")
 else:
     # Lukeminen onnistui, luodaan kaksi yksiulotteista taulukkoa
     T = T_p_datat[:, 0]
@@ -62,6 +62,7 @@ else:
     plt.xlabel('T (K)')
     plt.ylabel('p (Pa)')
     plt.legend(loc = 'upper left')
+    plt.show()
 
     # Ratkaistaan V == n * R / slope
     # Tulostetaan V ja kulmakertoimen keskivirhe std_err
